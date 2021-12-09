@@ -36,7 +36,7 @@ On peut également utiliser la direction Sphinx `code-block` pour insérer du co
 
 ```{code-block} python
 ---
-emphasize-lines: 1
+emphasize-lines: 1-3
 linenos: true
 ---
 from math import pi
@@ -63,6 +63,13 @@ def foo(a, b):
 ## Insérer du code depuis un fichier externe
 
 Il est également possible d'inclure du code dans la documentation depuis un fichier externe, au lieu d'avoir à écrire copier le code directement dans le fichier `.md`.
+
+```{literalinclude} src/code_exemple.py
+---
+language: python
+linenos: true
+---
+```
 
 ### Titre 2 
 

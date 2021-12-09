@@ -11,6 +11,7 @@ Ce chapitre d'introduction doit être complété avec les informations concernan
 Si le TM est du type "outil d'enseignement", ce chapitre doit contenir les informations suivantes:
 
 * Présentation rapide de l'outil
+    * sous-puce
 * Intérêt de l'outil (ce qu'il apporte) et aperçu des solutions similaires existantes s'il y en a
 * Aperçu des technologies utilisées
 * Configuration matérielle requise pour compiler / utiliser l'outil

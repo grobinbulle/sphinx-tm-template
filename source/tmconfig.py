@@ -1,13 +1,13 @@
 class TMConfig:
 
-    title = u'Titre du TM'
-    first_name = 'Prénom'
-    last_name = 'Nom'
+    title = u'Modernisation de la plateforme du cours informtique avec Vue 3 '
+    first_name = 'Robin'
+    last_name = 'Gachet'
     author = f'{first_name} {last_name}'
     year = u'2022'
     month = u'Janvier'
     seminary_title = u'Développement d’outils ou matériel d’enseignement de l’informatique'
-    tutor = u"Cédric Donner"
+    tutor = u"Robin Gachet"
     release = "Version intermédiaire"
     repository_url = "https://github.com/{your-docs-url}"
 
