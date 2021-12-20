@@ -1,36 +1,8 @@
-# Introduction (version Markdown / MyST)
+# Introduction au travail
 
-```{admonition} Information
-Ce chapitre d'introduction doit être complété avec les informations concernant le chapitre d'introduction au TM. 
-```
+Pour permettre aux élèves d’étudier dans les meilleures dispositions, il est nécessaire d’user un support de cour permettant une compréhension de qualité. Si dans la quasi-totalité des cours ce support se trouve sous format papier, le cours d’informatique y fait cependant exception en optant pour une plateforme de cours en ligne permettant notamment d’éviter à l’élève de stocker des quantités gargantuesques de feuilles de papier sur son dos, en prenant de plus le risque d’en égarer l’une ou l’autre. Bien que ce système de cours en ligne possède de nombreux avantages, il en résulte cependant quelques soucis nuisant à un apprentissage de qualité. En effet, cette plateforme n’est que peu pratique pour une compréhension optimale pour l’utilisateur et n’est plus au goût du jour.  Etant moi-même utilisateur de ce site, j’ai rencontré à plusieurs reprises des problèmes conséquents à comprendre un sujet, et cela était en majeure partie dû au fait que le site ne m’était pas pratique pour assimiler le chapitre étudié. 
 
-À compléter ... avec les informations concernant le chapitre d'introduction au TM. 
+Portant un fort intérêt pour l’informatique sans pour autant avoir pu profiter de m’y consacrer dans le cadre d’un projet, l’idée de mon travail était trouvée. En effet, mon devoir sera donc de moderniser cette plateforme pour la rendre plus confortable aux yeux de l’utilisateur. Par conséquent, il sera question de proposer un design plus agréable mais aussi de rendre la plateforme plus pratique et, de ce fait, plus propice à un meilleur apprentissage. Pour ce faire, j’userai de nombreuses technologies qui, pour la plupart des étudiants du Collège du Sud, ne sont pas entièrement inconnue. En effet, les technologies que sont l’HTML, le CSS, le JavaScript ainsi que les frameworks VueJS et PrimeVue me seront d’une grande utilité lors du développement de mon projet. Pour utiliser mon outil, il ne faudra qu’un simple navigateur comme Chrome. Il ne requerra pas non plus de connaissances particulières au préalable. Néanmoins, pour comprendre le fonctionnement de mon outil, il sera propice d’avoir des connaissances approfondies en HTML et CSS et de connaître un minimum le JavaScript ainsi que Vue 3. 
 
-## Informations à inclure pour un TM de type "outil"
-
-Si le TM est du type "outil d'enseignement", ce chapitre doit contenir les informations suivantes:
-
-* Présentation rapide de l'outil
-    * sous-puce
-* Intérêt de l'outil (ce qu'il apporte) et aperçu des solutions similaires existantes s'il y en a
-* Aperçu des technologies utilisées
-* Configuration matérielle requise pour compiler / utiliser l'outil
-* Connaissances requises pour utiliser l'outil
-* Connaissances requises pour comprendre le fonctionnement de l'outil
-
-## Informations à inclure pour un TM de type "tutoriel"
-
-Si le TM est du type "tutoriel", ce chapitre doit contenir les informations suivantes:
-
-* Présentation très rapide du sujet / domaine
-* Si le tutoriel montre comment développer un projet, présenter très rapidement le projet
-* Objectifs pédagogiques du tutoriel
-* Aperçu des technologies utilisées
-* Configuration matérielle requise pour compiler / utiliser le projet
-* Connaissances requises pour comprendre le projet 
-
-
-
-Ce chapitre doit présenter rapidement le projet, son intérêt, les technologies utilisées.
-
+Dans ce document, il sera d’abord question de présenter brièvement les différentes technologies utilisées dans mon TM et d’expliquer leur utilité au sein de mon projet. J’approfondirai notamment la technologie Vue JS car cette dernière est encore méconnue du grand public contrairement au HTML et le CSS. De plus, j’analyserai le site actuel afin d’y dégager ce qui empêche un bon apprentissage et proposerais des solutions afin de permettre des meilleures conditions d’apprentissage. Il en viendra finalement d’analyser le code d’une page se trouvant au sein du site afin de familiariser le lecteur aux différentes technologies et lui permettre de comprendre ce qui se cache derrière un site internet. 
 
