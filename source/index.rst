@@ -13,6 +13,8 @@ Titre du travail de maturité
     introduction.md
     chapitre-01.md
     chapitre-02.md
+    conclusion.md
+    sources.md
     todo.rst
 
 ..  toctree::
