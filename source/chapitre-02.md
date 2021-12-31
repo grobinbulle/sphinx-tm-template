@@ -1,6 +1,4 @@
 # Les Technologies utilisées
-{ref}`header_target`
-
 ## Introduction
 Dans ce chapitre, nous allons découvrir et approfondir les technologies utilisées pour le développement de l’outil. Bien que la plupart des technologies comme le HTML, le CSS et le JavaScript ne soient pas méconnues des étudiants, d’autres technologies comme le Vue 3 ainsi que PrimeVue restent encore inconnues pour la plupart des élèves. Nous allons ainsi développer ces quelques technologies tout en approfondissant davantage ces deux dernières. 
 ## Le HTML
@@ -152,5 +150,7 @@ Finalement, voilà ce que notre fonction createparagraph rend lorsqu’elle est 
 
 ## Vue.Js
 ### Introduction
-Vue.js est connu tel un framework JavaScript front-end open-source. En d’autres termes, Vue.js est une bibliothèque libre d’accès proposant des composants JavaScript visant la création d’application web. Utilisé notamment par Nintendo, Alibaba ou encore la plateforme de streaming Netflix, ce framework vise à simplifier le travail d’un développeur front-end lors de la construction de sa page web. De nombreux frameworks front-ends sont réputés des développeurs comme AngularJs ou encore ReactJs mais notre choix s’est bel et bien porté sur Vue.js. Nous verrons d’abord pourquoi notre décision s’est porté sur ce framework et nous expliquerons ainsi les avantages que possède ce dernier par rapport à ses concurrents. De plus, nous approfondirons notamment les composants VueJs si chers aux yeux des développeurs front-end. 
+Vue.js est connu tel un Framework JavaScript front-end open-source. En d’autres termes, Vue.js est une bibliothèque libre d’accès permettant la création de composants JavaScript visant la création d’application web. Utilisé notamment par Nintendo, Alibaba ou encore la plateforme de streaming Netflix, ce Framework vise à simplifier le travail d’un développeur front-end lors de la construction de sa page web. De nombreux Frameworks front-ends sont réputés des développeurs comme AngularJs ou encore ReactJs mais notre choix s’est bel et bien porté sur Vue.js. Nous verrons d’abord pourquoi notre décision s’est porté sur cette technologie et nous expliquerons ainsi les avantages que possède ce dernier par rapport à ses concurrents. De plus, nous approfondirons notamment les composants VueJs si chers aux yeux des développeurs front-end. 
 ### Pourquoi utiliser VueJs ?
+Le choix d’un Framework dans le cadre d’un travail de maturité n’était pas chose aisée. En effet, nous recherchons un logiciel facile à la compréhension et à l’utilisation pour permettre à un étudiant, n’ayant pratiquement aucune base dans le monde du développement web, de pouvoir coder son projet sans à devoir dépenser un temps conséquent rien que pour comprendre le fonctionnement de sa technologie. Vue.js s’est démarqué des autres Framework par les nombreux avantages qu’il propose.
+- 
