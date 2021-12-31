@@ -150,3 +150,7 @@ une légende
 
 Finalement, voilà ce que notre fonction createparagraph rend lorsqu’elle est appelée. En effet, après avoir cliqué 3 fois sur le bouton “Cliquez-moi!”, le texte “Vous avez cliqué” est apparu autant de fois. En théorie, ce programme peut s’effectuer à l’infini, de quoi s’amuser pendant de longues heures à essayer de faire apparaître notre phrase au maximum de reprises... 
 
+## Vue.Js
+### Introduction
+Vue.js est connu tel un framework JavaScript front-end open-source. En d’autres termes, Vue.js est une bibliothèque libre d’accès proposant des composants JavaScript visant la création d’application web. Utilisé notamment par Nintendo, Alibaba ou encore la plateforme de streaming Netflix, ce framework vise à simplifier le travail d’un développeur front-end lors de la construction de sa page web. De nombreux frameworks front-ends sont réputés des développeurs comme AngularJs ou encore ReactJs mais notre choix s’est bel et bien porté sur Vue.js. Nous verrons d’abord pourquoi notre décision s’est porté sur ce framework et nous expliquerons ainsi les avantages que possède ce dernier par rapport à ses concurrents. De plus, nous approfondirons notamment les composants VueJs si chers aux yeux des développeurs front-end. 
+### Pourquoi utiliser VueJs ?
