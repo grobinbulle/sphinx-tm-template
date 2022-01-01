@@ -11,8 +11,9 @@ Titre du travail de maturité
     :caption: Table des matières
 
     introduction.md
-    chapitre-01.md
     chapitre-02.md
+    chapitre-01.md
+    design.md
     conclusion.md
     sources.md
     todo.rst
