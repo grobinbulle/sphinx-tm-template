@@ -47,7 +47,7 @@ Les différentes balises h1, h2, h3, … expriment différentes tailles de titre
 ---
 width: 100%
 ---
-une légende
+Rendu de notre page HTML
 ```
 
 Voici donc le rendu de ce même code. Comme vous pouvez le constater, il s’agit ici vraiment de la base d’une page internet. Les éléments sont notamment tous alignés à gauche, tous écrits avec la même police et tous en noir. Il ne faut pas s’en cacher, cette page n’est pas du tout esthétique et est encore bien loin des pages que l’on consulte de nos jours. Pas de problème, ce problème sera réglé par le CSS qui viendra rendre notre page plus agréable et jolie. 
@@ -82,7 +82,7 @@ Comme vous le voyez ci-dessus, il s’agit du code CSS que nous allons appliquer
 ---
 width: 100%
 ---
-une légende
+Rendu de notre page CSS
 ```
 Voici donc ce code appliqué à la page HTML étudiée précédemment. Nous pouvons constater que le fond de la page est devenu gris, que le texte des paragraphes a grossi, est devenu rouge et s’est déplacé vers la gauche. Vous l’aurez deviné, ces changements ont été provoqués par l’ajout de notre code CSS. Ainsi, avec quelques notions d’Anglais, nous pouvons aisément deviner quelle ligne a provoqué quel changement. Cependant, notre page reste statique. En effet, il n’y a aucun effet et rein de dynamique. Pour coder une page visant à interagir avec l’utilisateur, nous allons nous intéresser au JavaScript.  
 
@@ -135,7 +135,7 @@ Ici, nous utilisons notre code directement dans notre page HTML. Nous utilisons 
 ---
 width: 100%
 ---
-une légende
+Rendu de l'alerte JavaScript
 ```
 Nous voyons ci-dessus l’appel de la fonction alerte. Comme indiqué précédemment, cette simple ligne de code engendre cette petite fenêtre en haut de notre page. Cette alerte ne s’enlèvera que lorsque l’utilisateur clickera sur le bouton ok. Cela fait, l’utilisateur pourra ensuite accéder au contenu de notre page web. 
 
@@ -143,7 +143,7 @@ Nous voyons ci-dessus l’appel de la fonction alerte. Comme indiqué précédem
 ---
 width: 100%
 ---
-une légende
+Rendu de notre code JavaScript
 ```
 
 Finalement, voilà ce que notre fonction createparagraph rend lorsqu’elle est appelée. En effet, après avoir cliqué 3 fois sur le bouton “Cliquez-moi!”, le texte “Vous avez cliqué” est apparu autant de fois. En théorie, ce programme peut s’effectuer à l’infini, de quoi s’amuser pendant de longues heures à essayer de faire apparaître notre phrase au maximum de reprises... 

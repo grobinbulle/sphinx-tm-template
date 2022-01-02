@@ -14,7 +14,7 @@ Pour ce travail, j’ai choisi d’examiner la page “2.1. Le monde des robots�
 ---
 width: 100%
 ---
-une légende
+Début d'une page de cours
 ```
 Voici ci-dessus le début de la page “2.1. Le monde des robots”. Cette capture d’écran nous permet notamment d’examiner la barre de navigation du site. Cependant, nous observons un problème de couleur entre cette dernière et le reste de la page. Pour améliorer cela, il serait préférable d’augmenter le contraste entre les deux éléments en appliquant une couleur plus puissante à la barre de navigation. Pour rester dans le domaine des couleurs, le fond de la page en gris ne sert pas vraiment et n’apporte rien de spécial. Il serait préférable de l’uniformiser avec le corps de la page en le colorant en blanc. Les différentes icônes pourraient subir quelques changements car il n’est pas évident de comprendre du premier coup d’œil ce qu’elles nous présentent. Concernant le menu déroulant “Naviguer dans ce chapitre”, ce dernier n’est pas assez mis en valeur. Pour avoir déjà travaillé sur cette plateforme au passé, je ne m’en suis rendu compte de l’existence de cette fonctionnalité que très récemment. Le menu de navigation au sein du chapitre devrait plutôt figurer complétement déroulé sur le bord gauche de la page au lieu d’être caché sous ce pauvre menu déroulant. Pour ajouter à cela, analysons désormais le corps de la page. Le premier fait qui gêne. C’est que l’intégralité de la page n’est pas utilisée. En effet, tous les éléments sont concentrés au centre de la page, rendant complétement inutile ce qui se trouve sur les côtés. Cette disposition peut s’avérer utile pour l’utilisation sur un téléphone mais n’est pas optimale sur un ordinateur. Il faudrait soit ajouter de nouvelles fonctionnalités comme le menu de navigation au sein du chapitre sur la bande gauche soit de changer la disposition des éléments dans la page pour que ces derniers occupent l’intégralité de la page. Enfin, les deux boutons situés en bas aux deux côtés sont vraiment intéressant. Ils permettent en effet de passer à la page précédente et ou la suivante un seul click sans avoir à scroller. 
 
@@ -23,7 +23,7 @@ Voici ci-dessus le début de la page “2.1. Le monde des robots”. Cette captu
 ---
 width: 100%
 ---
-une légende
+Vidéo YouTube insérée sur notre page
 ```
 Il n’y a pas énormément à redire sur cet exemple. En effet, la vidéo YouTube est bien incrustée et mise en évidence. Le seul élément qu’il faudrait modifier serait la légende de cette dernière. L’utilisateur ne peut comprendre ce qu’elle signifie. Par conséquent, une légende décrivant le sujet de la vidéo serait bien plus efficace et compréhensible aux yeux de l’utilisateur. 
 
@@ -32,7 +32,7 @@ Il n’y a pas énormément à redire sur cet exemple. En effet, la vidéo YouTu
 ---
 width: 100%
 ---
-une légende
+Tableau inséré sur notre page
 ```
 Nous observons ci-dessus un tableau intégré au sein de la page. Ce dernier est plutôt compréhensible. Ce qui gêne ici est surtout l’alignement des éléments en colonne qui devrait être revu. De plus, la couleur bleue utilisée ne s’harmonise pas très bien avec le reste de la page. 
 
@@ -41,7 +41,7 @@ Nous observons ci-dessus un tableau intégré au sein de la page. Ce dernier est
 ---
 width: 100%
 ---
-une légende
+Encadré "attention" pour l'utilisateur
 ```
 L’exemple ci-dessus est plutôt bon est compréhensible, le seul détail qu’il faudrait modifier serait la couleur de l’encadré. Effectivement, il faudrait qu’il soit un peu plus sombre et qu’il se rapproche plus du rouge pour bien faire comprendre à l’utilisateur qu’il porter son attention à cet encadré. 
 
@@ -50,7 +50,7 @@ L’exemple ci-dessus est plutôt bon est compréhensible, le seul détail qu’
 ---
 width: 100%
 ---
-une légende
+Exercices de notre page
 ```
 En comparant avec l’exemple 4, nous distinguons qu’il s’agit de la même couleur que pour les encadrés “Attention”, ce qui peut perturber l’utilisateur. Ainsi, il faudrait changer cette couleur orange pour que l’utilisateur puisse bien distinguer les exercices des remarques. Le fait que les questions soient posées en français et que le reste soit écrit en anglais peut aussi gêner la compréhension. De plus, il y a de nombreux boutons dont on ne comprend pas la signification. Il serait donc préférable de tout traduire en français pour éviter ces problèmes de compréhension. 
 
@@ -59,7 +59,7 @@ En comparant avec l’exemple 4, nous distinguons qu’il s’agit de la même c
 ---
 width: 100%
 ---
-une légende
+Espace contenant du code
 ```
 Ci-dessus se trouve un tableau énumérant les différentes commandes étudiées en cours. Sans compter des remarques faites auparavant sur les encadrés “Attention”, il y a un autre élément pas très agréable, il s’agit de l’encadré gris contenant les différentes commandes. Il n’y a pas assez de contraste entre le rouge nommant les commandes et le gris de leur encadré. Pour améliorer ceci, il faudrait opter pour un rouge plus “puissant” et d’augmenter l’épaisseur des lettres pour les rendre plus visibles. Sur un fond blanc, l’encadré gris n’est que très peu visible et donc que peu utile. 
 
@@ -68,7 +68,7 @@ Ci-dessus se trouve un tableau énumérant les différentes commandes étudiées
 ---
 width: 100%
 ---
-une légende
+Tableau contenant les différentes commandes apprises dans notre page
 ```
 Pour le dernier exemple, nous examinons le bas de notre page. La barre de progression n’est pas très esthétique : le vert est un peu trop “puissant” et les bords à 90 degrés ne s’accorde pas avec les bords arrondis des autres éléments. Le menu-bas ne se distingue pas du reste. Il faudrait opter pour la même couleur utilisée pour le menu-haut, créant aussi un équilibre dans la page.
 
