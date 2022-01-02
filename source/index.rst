@@ -12,8 +12,8 @@ Titre du travail de maturité
 
     introduction.md
     chapitre-02.md
-    chapitre-01.md
     design.md
+    chapitre-01.md
     conclusion.md
     sources.md
     todo.rst
