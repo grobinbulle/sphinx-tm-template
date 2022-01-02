@@ -44,3 +44,10 @@ width: 100%
 ---
 Croquis pour une page de cours de notre application
 ```
+Il s’en suit de la partie du codage. Ainsi, le développeur suit sa ligne directrice établie précédemment afin de la produire. Si une idée lui vient en tête quant à la modification de son design, il n’a qu’à reprendre son croquis afin de modifier ce qu’il souhaite apporter à son application. Dans le cas de notre projet, il m’est semblé intéressant d’intégrer les différentes photos de la page dans ce que l’on nomme un carrousel. Cet outil présente les photos les unes après les autres en les faisant défiler. Cela permet une structure organisée de notre page avec d’un côté le contenu textuel et de l’autre quelques images illustrant le texte. Ainsi, le codage représente la réalisation de notre idée générale. Bien que dictant une ligne directrice, les réflexions effectuées auparavant ne sont pas définitives et peuvent subir des évolutions venant améliorer le site. 
+```{figure} images/carrousel.jpg
+---
+width: 100%
+---
+Illustration d'un carrousel d'images
+```
