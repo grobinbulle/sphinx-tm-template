@@ -32,7 +32,7 @@ width: 100%
 ---
 Symbolisation de différentes couleurs
 ```
-```{figure} images/design_1.png
+```{figure} images/design_3.png
 ---
 width: 100%
 ---
