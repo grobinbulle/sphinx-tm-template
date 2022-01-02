@@ -53,3 +53,10 @@ width: 100%
 Illustration d'un carrousel d'images
 ```
 ## Après le codage
+ Après avoir terminé de coder les éléments principaux de notre page, il s’en suit de porter une attention particulière aux petits détails qui rendront notre page plus professionnelle et agréable à consulter. Il est notamment important de distinguer les éléments les uns des autres. Pour ce faire, les développeurs n’hésitent pas à ajouter du padding et des margin aux différents éléments de leur page. Le padding représente une sorte de marge à l’intérieur de l’élément sur tous les côtés de ce dernier tandis que les margin symbolise une marge à l’extérieur des quatre côtés de l’élément. Procéder ainsi permet de mettre en évidence notre composant ainsi que de séparer et donc de distinguer les éléments les uns des autres et permettre une meilleure compréhension de la page.
+```{figure} images/padding.png
+---
+width: 100%
+---
+Illustration du padding et des margin d'un élément
+```
