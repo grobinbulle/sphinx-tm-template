@@ -74,3 +74,7 @@ width: 100%
 ---
 Contraste entre les couleurs rouge et noir
 ```
+Les détails peuvent apporter en conséquence à votre application. Ils permettent notamment de rendre votre travail plus agréable à consulter et plus professionnel. Evidemment, il ne faut pas s’attarder uniquement sur les points abordés dans cette partie mais ces derniers demeurent comme les plus importants. Le codeur doit scruter attentivement les éléments de sa page mais aussi l’harmonie de cette dernière afin de produire le travail le plus professionnel possible. 
+## Conclusion
+Par conséquent, afin de produire un design efficace, le développeur doit pouvoir examiner son travail dans les moindres détails mais aussi et surtout dans une vision d’ensemble. Cela nécessite un travail important avant même le début du codage afin de dicter sa ligne directrice. Cette vision pourra et sera probablement modifiée pendant et même après avoir terminé son code. Développer son projet sur une période de temps conséquente permet d’imaginer davantage d’idées qui ne nous viendraient pas forcément à l’esprit si l’on devait réfléchir énormément sur une très courte période de temps. 
+ 
