@@ -60,3 +60,10 @@ width: 100%
 ---
 Illustration du padding et des margin d'un élément
 ```
+Il est également important d’avoir un alignement cohérent sur l’ensemble de notre page. Ce dernier viendra harmoniser celle-ci et permettra ainsi une navigation plus agréable. Un alignement bien effectué donne une impression de professionnalisme et permet aussi de bien distinguer les éléments les uns des autres.
+```{figure} images/alignement_f.png
+---
+width: 100%
+---
+Alignement à améliorer
+```
