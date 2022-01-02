@@ -67,3 +67,10 @@ width: 100%
 ---
 Alignement à améliorer
 ```
+Deux autres éléments que l’on sous-estime la plupart du temps sont les contrastes de couleurs ainsi que le choix de la police. En effet, les éléments doivent se distinguer les uns des autres aussi par la différence de leur couleur. Il faut cependant porter une attention particulière sur le fait que notre page ne doit pas contenir trop de couleurs différentes pour éviter de perturber l’utilisateur. Le choix de la police semble aussi primordial car il donne en partie l’identité de notre page. Un site destiné aux enfants utilisera une police plus fantaisie alors qu’un site plus sérieux se dotera d’une police plus sombre. Il est préférable, comme les couleurs, de ne pas utiliser trop de polices différentes. Une voire deux polices suffisent amplement. 
+```{figure} images/contraste.png
+---
+width: 100%
+---
+Contraste entre les couleurs rouge et noir
+```
