@@ -8,8 +8,7 @@ Pour ce faire, cette technologie fonctionne par des balises comme header, p,  ti
 
 Voici un exemple de page HTML. 
 
-`````{admonition} Code Markdown
-````markdown
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -32,8 +31,6 @@ Voici un exemple de page HTML.
 </html>
 
 ```
-````
-`````
 
 Voici un code HTML, nous n’allons pas examiner chaque ligne dans les moindres détails mais il peut être intéressant d’en regarder quelques-unes. 
 
@@ -60,8 +57,7 @@ Pour ce faire, nous devons sélectionner un élément par des “sélecteurs” 
 
 Voici un exemple de code CSS. 
 
-`````{admonition} Code Markdown
-````markdown
+
 ```css
 body{
     background-color: grey
@@ -73,8 +69,7 @@ p{
 }
 
 ```
-````
-`````
+
 
 Comme vous le voyez ci-dessus, il s’agit du code CSS que nous allons appliquer à notre page. Nous y distinguons le sélecteur body (venant modifier l’ensemble de la page) ainsi que le sélecteur p (venant modifier tous les paragraphes de texte). Chaque sélecteur et suivi de deux accolades qui enfermeront les différentes instructions. Ces dernières sont séparées d’un point-virgule pour les distinguer clairement les unes des autres. 
 
@@ -90,8 +85,7 @@ Voici donc ce code appliqué à la page HTML étudiée précédemment. Nous pouv
 Le JavaScript (ou JS) est la troisième et dernière base d’une page web avec le HTML et le CSS. Cette technologie permet notamment de dynamiser une page et de permettre une interaction avec l’utilisateur. Le JavaScript est, comme son nom l’indique, un langage de script. Un script est une suite d’instructions se referrant à une page. Pour interpréter le JavaScript, nous devons utiliser un interpréteur (en majorité Chrome) qui viendra appliquer les différentes commandes à la page web en question.  
 
 Voici un exemple de code très simple en JavaScript. 
-`````{admonition} Code Markdown
-````markdown
+
 ```JavaScript
 
 alert("Bonjour!");
@@ -103,14 +97,12 @@ function createParagraph() {
   }
 
 ```
-````
-`````
+
 Ce code crée deux éléments distincts dans notre page. En premier lieu, la commande alert(“Bonjour!) ouvrira un petit élément lorsqu’on lance la page. L’utilisateur devra appuyer sur un bouton pour enlever cette alarme et accéder au contenu de la page. 
 
 En second lieu, nous créons une fonction, à l’aide de la commande function, qui créera un boutton affichant du texte à chaque click. La commande function permettra d’utiliser notre fonction dans notre page HTML par la suite. Dans ce code, nous créons une variable para qui affichera “Vous avez cliqué !” à chaque click. 
 
-`````{admonition} Code Markdown
-````markdown
+
 ```html
 
 <!DOCTYPE html>
@@ -127,8 +119,7 @@ En second lieu, nous créons une fonction, à l’aide de la commande function, 
 </html>
 
 ```
-````
-`````
+
 Ici, nous utilisons notre code directement dans notre page HTML. Nous utilisons notre fonction dans une balise button. Ainsi, à chaque click effectué sur ce bouton, la page web affichera “Vous avez clické !”. 
 
 ```{figure} images/alert_javascript.png
@@ -165,3 +156,54 @@ Pour ajouter à cela, Vue est une technologie très performante. Ce Framework es
 Enfin, cette technologie offre la possibilité de créer facilement ses propres directives ou composants que l’on peut sauvegarder sous des fichiers “.vue”. Ces composants se suffisent à eux-mêmes, possédant ses propres caractéristiques et style. En outre, ces derniers peuvent même être réutilisés ailleurs dans le code et même dans d’autres projets. 
 
 Ainsi, Vue.js paraissait pour la solution optimale dans le cadre d’un travail de maturité. Cette technologie peut aisément et rapidement se comprendre et être utilisée par le développeur. Elle s’adapte aussi à ses différents besoins et peut être ajoutée facilement avec des éléments provenants de technologies différentes. 
+### Les composants
+Un élément important apporté par VueJs sont les composants ou Web component. Ces derniers viennent enrichir le HTML de façon modulaire. En d’autres termes, il nous est possible de créer un élément produit en HTML et possédant ses propres fonctionnalités que l’on peut facilement intégrer à notre code par le biais d’une simple balise personnalisée. Le catalogue de fonctionnalités du HTML n’étant que peu conséquent, les composant permettent d’y ajouter de nombreux éléments plus complexes qui se porteront d’une grande utilité pour le développeur. Ainsi, nous allons observer le fonctionnement de ces fameux composants si utiles aux développeurs. 
+
+Tout d’abord, nous allons comprendre comment créer un composant très simple. Nous allons produire un élément qui, lorsque la balise que l’on a créée est appelée, contiendra la commande HTML <p>First component</p> 
+
+```vue
+Vue.component('exemple-composant',{ 
+
+template : '<p>First component</p>'' 
+
+}) 
+
+```
+Il existe de nombreuses manières de créer un composant mais celle-ci est particulièrement simple à la compréhension. La balise que l’on a créée s’intitule ‘exemple-composant’. Par conséquent, pour appeler notre composant, nous n’aurons qu’à appeler la balise <exemple-composant>. Par la suite, nous devons utiliser ce composant tel une instance Vue créée par la commande JavaScript : 
+```JavaScript
+ew Vue({  
+  el: '#tuto'  
+}); 
+
+```
+Enfin, nous devons appeler notre composant dans notre code HTML par sa balise personnalisée insérée dans une div. 
+
+Ainsi, le résultat obtenu sera : 
+
+First component 
+
+De plus les composants peuvent être utilisés plusieurs fois dans le même code et même dans d’autres pages de code n’ayant pas nécessairement un rapport particulier avec la première page. 
+
+Pour rendre notre composant plus intéressant, il est possible d’y ajouter des props. 
+```vue
+Vue.component('nom', { 
+  props: ['nom'], 
+  template: '<p>Mon nom est {{nom}}</p>' 
+}); 
+```
+Les props sont des propriétés dont le composant attend une valeur. Dans cet exemple, nous créons une propriété ‘nom’ qui n’affichera pas la même valeur selon ce que l’on codera en HTML: 
+```html
+<div id="tuto"> 
+  <nom nom="Toto"></nom> 
+</div> 
+```
+Ainsi, la propriété attendue par le composant sera “Toto”. Par conséquent, notre code affichera : 
+
+Mon nom est Toto 
+
+```{figure} images/schema_props.jpg
+---
+width: 100%
+---
+Schéma expliquant le fonctionnement de notre composant 
+```
