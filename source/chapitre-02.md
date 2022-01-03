@@ -158,7 +158,7 @@ Enfin, cette technologie offre la possibilité de créer facilement ses propres 
 Ainsi, Vue.js paraissait pour la solution optimale dans le cadre d’un travail de maturité. Cette technologie peut aisément et rapidement se comprendre et être utilisée par le développeur. Elle s’adapte aussi à ses différents besoins et peut être ajoutée facilement avec des éléments provenants de technologies différentes. 
 ### Les composants
 Un élément important apporté par VueJs sont les composants ou Web component. Ces derniers viennent enrichir le HTML de façon modulaire. En d’autres termes, il nous est possible de créer un élément produit en HTML et possédant ses propres fonctionnalités que l’on peut facilement intégrer à notre code par le biais d’une simple balise personnalisée. Le catalogue de fonctionnalités du HTML n’étant que peu conséquent, les composant permettent d’y ajouter de nombreux éléments plus complexes qui se porteront d’une grande utilité pour le développeur. Ainsi, nous allons observer le fonctionnement de ces fameux composants si utiles aux développeurs. 
-
+#### Créer un composant
 Tout d’abord, nous allons comprendre comment créer un composant très simple. Nous allons produire un élément qui, lorsque la balise que l’on a créée est appelée, contiendra la commande HTML <p>First component</p> 
 
 ```vue
@@ -183,7 +183,7 @@ Ainsi, le résultat obtenu sera :
 First component 
 
 De plus les composants peuvent être utilisés plusieurs fois dans le même code et même dans d’autres pages de code n’ayant pas nécessairement un rapport particulier avec la première page. 
-
+#### Les props
 Pour rendre notre composant plus intéressant, il est possible d’y ajouter des props. 
 ```vue
 Vue.component('nom', { 
@@ -207,3 +207,9 @@ width: 100%
 ---
 Schéma expliquant le fonctionnement de notre composant 
 ```
+### PrimeVue
+Enfin, VueJs se complète notamment par l’application PrimeVue. Ce logiciel est décrit comme une bibliothèque de composants. Comme son nom l’indique, PrimeVue recense plus de 80 composants différents déjà intégralement prêt pour être intégrés dans notre code. Il ne suffit ainsi qu’à copier-coller les lignes de codes disponibles sur le site internet de l’application pour obtenir l’élément en question sur sa page web. Pour certains composants, il existe même plusieurs modèles de l’élément en question comme par exemple le composant dans de différentes orientations. Evidemment, il nous est possible de modifier facilement le composant par quelques commandes CSS. En résumé, PrimeVue permet un accès libre à plus de 80 composants que l’on peut intégrer et modifier aisément dans notre code. 
+### Conclusion
+Ainsi, notre choix concernant le Framework utlisié dans le cadre de ce travail de maturité s’est porté sur Vue.js. En effet, son accessibilité ainsi que sa flexibilité furent des atouts majeurs en la faveur de ce Framework. Cette application permet notamment d’enrichir le catalogue HTML par le biais de composants, des entités possédant leur propre style et leurs propres fonctionnalités permettant au codeur d’ajouter un élément complexe dans son projet en quelques minutes seulement sans à devoir cravacher des journées entières pour fabriquer ce qu’il désire. 
+
+ 
