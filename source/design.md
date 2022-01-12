@@ -26,6 +26,7 @@ width: 50%
 Site web khanacademy.org
 ```
 Après s’être inspiré et d’avoir laissé germer quelques idées, il est temps de déterminer le design de votre application en dessinant notamment quelques schémas. Dessiner des esquisses permet de distinguer plus facilement de ce qu’il y a à améliorer dans notre projet et d’avoir aussi une idée du rendu final. Il peut être intéressant d’étudier l’effet que provoquent les différentes couleurs pour en déceler la plus propice. Dans notre exemple, nous avons opté pour le bleu, symbolisant le calme et la confiance, ce qui est optimale dans le cadre d’une plateforme de cours afin de se concentrer sur le contenu de notre page. Avoir une idée générale de ce que l’on souhaite permettra par la suite de partir dans la bonne direction dans notre code et de savoir ce que l’on veut obtenir à la fin. Fonctionner ainsi permet un gain de temps conséquent car nous ne doutons plus de si notre idée est bonne ou non et cela nous évite de commencer dans une mauvaise direction et de devoir tout recommencer par la suite. Le but étant d’obtenir une structure générale, le design n’est pas totalement définitif et pourra aisément être modifié par la suite. Il suffit d’avoir une idée générale du produit que l’on souhaite obtenir pour éviter les mauvaises surprises lors du codage. 
+
 ```{figure} images/couleur_sym.gif
 ---
 width: 50%
