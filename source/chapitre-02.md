@@ -42,7 +42,7 @@ Les différentes balises h1, h2, h3, … expriment différentes tailles de titre
 
 ```{figure} images/html_rendu.png
 ---
-width: 100%
+width: 50%
 ---
 Rendu de notre page HTML
 ```
@@ -75,7 +75,7 @@ Comme vous le voyez ci-dessus, il s’agit du code CSS que nous allons appliquer
 
 ```{figure} images/rendu_css.png
 ---
-width: 100%
+width: 50%
 ---
 Rendu de notre page CSS
 ```
@@ -124,7 +124,7 @@ Ici, nous utilisons notre code directement dans notre page HTML. Nous utilisons 
 
 ```{figure} images/alert_javascript.png
 ---
-width: 100%
+width: 50%
 ---
 Rendu de l'alerte JavaScript
 ```
@@ -132,7 +132,7 @@ Nous voyons ci-dessus l’appel de la fonction alerte. Comme indiqué précédem
 
 ```{figure} images/click_test_img.png
 ---
-width: 100%
+width: 50%
 ---
 Rendu de notre code JavaScript
 ```
@@ -203,7 +203,7 @@ Mon nom est Toto
 
 ```{figure} images/schema_props.jpg
 ---
-width: 100%
+width: 50%
 ---
 Schéma expliquant le fonctionnement de notre composant 
 ```

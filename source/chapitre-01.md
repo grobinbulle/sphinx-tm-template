@@ -12,7 +12,7 @@ Pour ce travail, j’ai choisi d’examiner la page “2.1. Le monde des robots�
 ### Exemple 1
 ```{figure} images/capture_1.png
 ---
-width: 100%
+width: 50%
 ---
 Début d'une page de cours
 ```
@@ -21,7 +21,7 @@ Voici ci-dessus le début de la page “2.1. Le monde des robots”. Cette captu
 ### Exemple 2
 ```{figure} images/capture_2.png
 ---
-width: 100%
+width: 50%
 ---
 Vidéo YouTube insérée sur notre page
 ```
@@ -30,7 +30,7 @@ Il n’y a pas énormément à redire sur cet exemple. En effet, la vidéo YouTu
 ### Exemple 3
 ```{figure} images/capture_3.png
 ---
-width: 100%
+width: 50%
 ---
 Tableau inséré sur notre page
 ```
@@ -39,7 +39,7 @@ Nous observons ci-dessus un tableau intégré au sein de la page. Ce dernier est
 ### Exemple 4
 ```{figure} images/capture_4.png
 ---
-width: 100%
+width: 50%
 ---
 Encadré "attention" pour l'utilisateur
 ```
@@ -48,7 +48,7 @@ L’exemple ci-dessus est plutôt bon est compréhensible, le seul détail qu’
 ### Exemple 5
 ```{figure} images/capture_5.png
 ---
-width: 100%
+width: 50%
 ---
 Exercices de notre page
 ```
@@ -57,7 +57,7 @@ En comparant avec l’exemple 4, nous distinguons qu’il s’agit de la même c
 ### Exemple 6
 ```{figure} images/capture_6.png
 ---
-width: 100%
+width: 50%
 ---
 Espace contenant du code
 ```
@@ -66,7 +66,7 @@ Ci-dessus se trouve un tableau énumérant les différentes commandes étudiées
 ### Exemple 7
 ```{figure} images/capture_7.png
 ---
-width: 100%
+width: 50%
 ---
 Tableau contenant les différentes commandes apprises dans notre page
 ```
