@@ -1,6 +1,6 @@
 # Sources
 ## Sources textuelles
-- Formation web pour l'apprentissage du HTML https://grafikart.fr/tutoriels/html(https://grafikart.fr/tutoriels/html)
+- Formation web pour l'apprentissage du HTML https://grafikart.fr/tutoriels/html
 
 - Site web ressourçant les bases du HTML https://developer.mozilla.org/fr/docs/Web/HTML
 - Site web utilisé pour redimensionner les images https://imageresizer.com/
@@ -35,9 +35,9 @@
 - Informations sur les composants VueJs [https://laravel.sillo.org/vue-js-2-les-composants-1/](https://laravel.sillo.org/vue-js-2-les-composants-1/)
 
 ## Sources des images
-- Fig.1 design[www.openclassroom.com](http://www.openclassroom.com)
-- Fig.3 design[www.khanacademy.org](http://www.khanacademy.org) 
-- Fig.7 design[https://www.convertize.com/fr/carrousel-images-slider/](https://www.convertize.com/fr/carrousel-images-slider/)
-- Fig.8 design[https://www.codeproject.com/Articles/227840/CSS-Basics-The-Box-Model-Margin-and-Padding](https://www.codeproject.com/Articles/227840/CSS-Basics-The-Box-Model-Margin-and-Padding)
+- Fig.1 design [www.openclassroom.com](http://www.openclassroom.com)
+- Fig.3 design [www.khanacademy.org](http://www.khanacademy.org) 
+- Fig.7 design [https://www.convertize.com/fr/carrousel-images-slider/](https://www.convertize.com/fr/carrousel-images-slider/)
+- Fig.8 design [https://www.codeproject.com/Articles/227840/CSS-Basics-The-Box-Model-Margin-and-Padding](https://www.codeproject.com/Articles/227840/CSS-Basics-The-Box-Model-Margin-and-Padding)
 - Fig.4 design [https://www.graphicstyle.fr/communication/signification-des-couleurs/](https://www.graphicstyle.fr/communication/signification-des-couleurs/)
-- Fig.10 design[https://graphiste.com/blog/ajouter-contraste-design](https://graphiste.com/blog/ajouter-contraste-design)
+- Fig.10 design [https://graphiste.com/blog/ajouter-contraste-design](https://graphiste.com/blog/ajouter-contraste-design)
