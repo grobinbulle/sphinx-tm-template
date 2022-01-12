@@ -18,14 +18,6 @@ Titre du travail de maturité
     sources.md
     todo.rst
 
-..  toctree::
-    :maxdepth: 2
-    :caption: Tutoriel Sphinx
-
-    tutoriel-sphinx/index.rst
-
-
-
 
 Indices and tables
 ==================
