@@ -83,4 +83,4 @@ Pour le dernier exemple, nous examinons le bas de notre page. La barre de progre
 Un autre gros problème que nous ne pouvons pas remarquer sur ces exemples et la longueur de la page. En effet, ce ne représente seulement quelques parties de la page. La page totale est bien trop longue et cela peut rapidement décourager l’utilisateur face à tant de contenu. Découper la page en plusieurs “sous-pages” peut rendre le contenu bien plus agréable et permet de ne pas devoir scroller en continu et donc de se focaliser uniquement sur le contenu. 
 
 ### Conclusion
-Bien que le site soit compréhensible, il faudra néanmoins fournir un très gros travail notamment sur les couleurs utilisées, la disposition des éléments et la traduction en une seule langue. La plateforme commence à vieillir et doit donc recevoir un coup de modernité. 
+Bien que le site soit compréhensible, il faudra néanmoins fournir un très gros travail notamment sur les couleurs utilisées, la disposition des éléments et la traduction en une seule langue. La plateforme commence à vieillir et doit donc recevoir un coup de modernité.
