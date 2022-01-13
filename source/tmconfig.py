@@ -1,6 +1,6 @@
 class TMConfig:
 
-    title = u'Modernisation de la plateforme du cours informatique avec Vue 3 '
+    title = u"Modernisation de la plateforme du cours d'informatique avec Vue 3"
     first_name = 'Robin'
     last_name = 'Gachet'
     author = f'{first_name} {last_name}'
