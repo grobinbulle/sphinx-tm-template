@@ -49,7 +49,7 @@ Croquis pour une page de cours de notre application
 Il s’en suit de la partie du codage. Ainsi, le développeur suit sa ligne directrice établie précédemment afin de la produire. Si une idée lui vient en tête quant à la modification de son design, il n’a qu’à reprendre son croquis afin de modifier ce qu’il souhaite apporter à son application. Dans le cas de mon projet, il m'est semblé intéressant d'y ajouter une sidebar, un menu ouvert sur la gauche de notre écran, qui nous permetterait de naviguer plus aisément à travers notre application. Ainsi, le codage représente la réalisation de notre idée générale. Bien que dictant une ligne directrice, les réflexions effectuées auparavant ne sont pas définitives et peuvent subir des évolutions venant améliorer le site. 
 ```{figure} images/sidebar_screen.png
 ---
-width: 50%
+width: 60%
 ---
 Sidebar utiliée dans notre page de cours
 ```
@@ -58,7 +58,7 @@ Sidebar utiliée dans notre page de cours
  Après avoir terminé de coder les éléments principaux de notre page, il s’en suit de porter une attention particulière aux petits détails qui rendront notre page plus professionnelle et agréable à consulter. Il est notamment important de distinguer les éléments les uns des autres. Pour ce faire, les développeurs n’hésitent pas à ajouter du padding et des margin aux différents éléments de leur page. Le padding représente une sorte de marge à l’intérieur de l’élément sur tous les côtés de ce dernier tandis que les margin symbolise une marge à l’extérieur des quatre côtés de l’élément. Procéder ainsi permet de mettre en évidence notre composant ainsi que de séparer et donc de distinguer les éléments les uns des autres et permettre une meilleure compréhension de la page.
 ```{figure} images/padding.png
 ---
-width: 50%
+width: 55%
 ---
 Illustration du padding et des margin d'un élément
 ```
