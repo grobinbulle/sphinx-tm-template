@@ -51,7 +51,7 @@ Barre latérale utiliée dans notre page de cours
 
 ## Après le codage
  Après avoir terminé de coder les éléments principaux de la page que l'on veut coder, il faut porter une attention particulière aux petits détails qui rendront notre page plus professionnelle et agréable à consulter. Il est notamment important de distinguer les éléments les uns des autres. Pour ce faire, les développeurs n’hésitent pas à ajouter des marges intérieur, appelées "padding" (cf. Figure 8) et des marges extérieures, nommées "margin" (cf. Figure 8) aux différents éléments de leur page. Procéder ainsi permet de mettre en évidence notre composant ainsi que de séparer et donc de distinguer les éléments les uns des autres et permettre une meilleure compréhension de la page.
-```{figure} images/padding.png
+```{figure} images/padding_marg.png
 ---
 width: 55%
 ---
