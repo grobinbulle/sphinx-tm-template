@@ -4,7 +4,8 @@ Dans ce chapitre, nous allons découvrir et approfondir les technologies utilis�
 ## Le HTML
 L’HTML (HyperText Markup Language ou langage à balises pour l’hypertexte) constitue la structure de base des pages Web. Cette technologie se charge des éléments “brutes” de la page sans aucune mise en page et sans aucune “décoration”. L’HTML désigne aussi les liens reliant les pages les unes aux autres, une base fondamentale pour la navigation.  
 
-Pour ce faire, cette technologie fonctionne par des balises. Ces balises servent à intégrer un élément à notre page ainsi qu’à en indiquer la valeur (paragraphe de texte, image, titre, …). L’élément à intégrer définit par les balises est inscrit entre la balise ouvrante et la balise fermante (contenant une barre oblique avant de nommer la balise qui doit être fermée). 
+Pour ce faire, cette technologie fonctionne par des balises. Ces balises servent à intégrer un élément à notre page ainsi qu’à en indiquer la valeur (paragraphe de texte, image, titre, …). L’élément à intégrer définit par les balises est inscrit entre la balise ouvrante et la balise fermante (contenant une barre oblique avant de nommer la balise qui doit être fermée).
+Pour produire la page souhaitée à partir du code, ce dernier passe tout d'abord par le DOM (Document Object Model), qui va permettre aux programmes de lire et de manipuler le contenu de la page. Il fournit ainsi une représentation structurée des éléments de la page sous forme d'un arbre.
 
 Voici un exemple de page HTML. 
 
