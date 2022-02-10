@@ -156,7 +156,7 @@ Le choix d’un framework dans le cadre d’un travail de maturité n’était p
 
 En effet, VueJs est l'un des frameworks les plus légers du marché par son poids avoisinant les 20 Ko.  
 
-De plus, Vue.js est très accessible pour un développeur débutant : son apprentissage et sa syntaxe sont faciles à comprendre et un résultat probant peut déjà être obtenu en quelques lignes de code. Cet aspect fut primordial au choix de cette technologie car il permettait ainsi à un étudiant n’ayant que très peu de bases dans le monde du développement Front-end de pouvoir coder efficacement le plus rapidement possible sans à devoir perdre des heures précieuses pour assimiler le fonctionnement de sa technologie.  
+De plus, Vue.js est très accessible pour un développeur débutant : son apprentissage et sa syntaxe sont faciles à comprendre et un résultat probant peut déjà être obtenu en quelques lignes de code. Cet aspect fut primordial au choix de cette technologie car il permettait ainsi à un étudiant n’ayant que très peu de bases dans le monde du développement Front-end de pouvoir coder efficacement le plus rapidement possible sans à devoir perdre des heures précieuses pour assimiler le fonctionnement de sa technologie. VueJs utilise le bundler nommé "Webpack". Ce dernier transforme le code VueJs en code Javascript. Cela permet donc à Vue d'avoir des commandes plus complètes et plus facile à comprendre lorsque l'on les lit.
 
 Un autre avantage à ne pas négliger est que ce framework a été conçu pour pouvoir être utilisé de manière incrémentale. De ce fait, il peut être aisément possible d’ajouter un élément Vue sur une page contenant des éléments provenants de technologies différentes, ce qui n’est pas anodin pour un développeur devant à multiples reprises utiliser différentes bibliothèques de composants pour satisfaire ses besoins. Par conséquent, Vue.js s’adapte aux différents besoins du développeur. 
 
@@ -164,7 +164,7 @@ De plus, Vue utilise aussi le concept de réactivité automatique. Ce mechanisme
 
 Pour ajouter à cela, Vue est une technologie très performante. Ce framework est effectivement fort efficace peu importe s’il s’agit d’une simple page ou d’une application multi-pages. Le rendu final est donc rapide, fluide et la synchronisation des données est efficace. 
 
-Enfin, cette technologie offre la possibilité de créer facilement ses propres directives ou composants que l’on peut sauvegarder sous des fichiers “.vue”. Ces composants se suffisent à eux-mêmes, possédant leurs propres props et style. En outre, ces derniers peuvent même être réutilisés ailleurs dans le code et même dans d’autres projets. 
+Enfin, cette technologie offre la possibilité de créer facilement ses propres directives ou composants que l’on peut sauvegarder sous des fichiers “.vue” (Single File Component). Ces composants se suffisent à eux-mêmes, possédant leurs propres props et style. En outre, ces derniers peuvent même être réutilisés ailleurs dans le code et même dans d’autres projets. 
 
 Ainsi, Vue.js demeurait être une solution adéquate dans le cadre d’un travail de maturité. Cette technologie peut aisément et rapidement se comprendre et être utilisée par le développeur. Elle s’adapte aussi à ses différents besoins et peut être mêlée facilement à des technologies différentes. 
 ### Les composants
