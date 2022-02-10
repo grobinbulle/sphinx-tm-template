@@ -160,6 +160,8 @@ De plus, Vue.js est très accessible pour un développeur débutant : son appren
 
 Un autre avantage à ne pas négliger est que ce framework a été conçu pour pouvoir être utilisé de manière incrémentale. De ce fait, il peut être aisément possible d’ajouter un élément Vue sur une page contenant des éléments provenants de technologies différentes, ce qui n’est pas anodin pour un développeur devant à multiples reprises utiliser différentes bibliothèques de composants pour satisfaire ses besoins. Par conséquent, Vue.js s’adapte aux différents besoins du développeur. 
 
+De plus, Vue utilise aussi le concept de réactivité automatique. Ce mechanisme permet au framework de détecter si les données de la page ont été modifiées ou non. Ainsi, le framework met automatiquement la page à jour. VueJs construit un DOM virtuel gardant les traces des modifications Vue pour qu'elles soient ainsi lues et mise à jour dans le vrai DOM.
+
 Pour ajouter à cela, Vue est une technologie très performante. Ce framework est effectivement fort efficace peu importe s’il s’agit d’une simple page ou d’une application multi-pages. Le rendu final est donc rapide, fluide et la synchronisation des données est efficace. 
 
 Enfin, cette technologie offre la possibilité de créer facilement ses propres directives ou composants que l’on peut sauvegarder sous des fichiers “.vue”. Ces composants se suffisent à eux-mêmes, possédant leurs propres props et style. En outre, ces derniers peuvent même être réutilisés ailleurs dans le code et même dans d’autres projets. 
