@@ -1,4 +1,5 @@
-# Code d'une page de cours
+# Annexes
+## Code d'une page de cours
 
 ```{admonition} Remarque
 ---
