@@ -9,7 +9,7 @@ Suite à des problèmes rencontrés avec la plateforme repl qui m'ont empêché 
 ```
 
 
-```{code-block} html
+```{code-block} vue
 ---
 linenos: true
 ---
