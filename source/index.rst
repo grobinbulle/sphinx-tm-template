@@ -15,6 +15,7 @@ Titre du travail de maturité
     design.md
     chapitre-01.md
     analysecode.md
+    presentation-app.md
     conclusion.md
     sources.md
     annexe.md
