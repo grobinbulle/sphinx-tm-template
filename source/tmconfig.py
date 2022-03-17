@@ -5,7 +5,7 @@ class TMConfig:
     last_name = 'Gachet'
     author = f'{first_name} {last_name}'
     year = u'2022'
-    month = u'Janvier'
+    month = u'Avril'
     seminary_title = u'Développement d’outils ou matériel d’enseignement de l’informatique'
     tutor = u"Robin Gachet"
     release = "Version intermédiaire"
