@@ -20,7 +20,7 @@ linenos: true
     <head>
         <title> Donne ici un titre à ta page html </title>
         <meta charset="UTF-8">
-        <link href="C:\Users\Robin\OneDrive - EDUETATFR\TM 2021-2022\essai\css_exemple.css" rel="stylesheet" type="text/css">
+        <link href="css_exemple.css" rel="stylesheet" type="text/css">
         <script src="js.js"></script>
     </head>
     <body>
@@ -61,16 +61,16 @@ Pour appliquer un style à un élément de la page, il faut sélectionner un él
 Voici un exemple de code CSS. 
 
 
-```{code-box}css
+```{code-block}css
 ---
 linenos: true
 ---
 div {
-background-color:#339;
-color:#fff;
-padding:15px;
-border-bottom:5px solid red;
-margin-bottom:15px;
+  background-color:#339;
+  color:#fff;
+  padding:15px;
+  border-bottom:5px solid red;
+  margin-bottom:15px;
     }
 ```
 
@@ -90,7 +90,7 @@ Le JavaScript (ou JS) est la troisième et dernière base d’une page Web avec 
 
 Voici un exemple de code très simple en JavaScript. 
 
-```{code-box}JavaScript
+```{code-block}JavaScript
 ---
 linenos: true
 ---
@@ -100,8 +100,7 @@ function createParagraph() {
     let para = document.createElement('p');
     para.textContent = 'Vous avez cliqué !';
     document.body.appendChild(para);
-  }
-
+}
 ```
 
 Ce code crée deux éléments distincts dans notre page. En premier lieu, la commande :command:`alert("Bonjour!")`alert ouvrire une boîte de dialogue lorsqu’on lance la page. L’utilisateur doit alors appuyer sur un bouton pour fermer cette alarme et accéder au contenu de la page. 
@@ -109,7 +108,7 @@ Ce code crée deux éléments distincts dans notre page. En premier lieu, la com
 En second lieu, on définit une fonction, à l’aide de la commande :command:`function`, qui crée un boutton affichant du texte à chaque clic. Cette fonction peut être appelée par la suite. Dans ce code, nous créons une variable :command:`para` qui permet d'afficher “Vous avez cliqué !” à chaque clic. 
 
 
-```{code-box}html
+```{code-block}html
 ---
 linenos: true
 ---
@@ -172,7 +171,7 @@ Des éléments importants apporté par VueJs sont les composants. Ces derniers v
 #### Créer un composant
 Tout d’abord, nous allons comprendre comment créer un composant très simple. Nous allons produire un élément qui, lorsque la balise que l’on a créée est appelée, contiendra la balise HTML :command:`First component`. 
 
-```{code-box}vue
+```{code-block}vue
 ---
 linenos: true
 Vue.component('exemple-composant',{ 
@@ -183,7 +182,7 @@ template : '<p>First component</p>''
 
 ```
 Il existe de nombreuses manières de créer un composant mais celle-ci est particulièrement simple à assimiler. La balise que l’on a créée s’appelle :command:`exemple-composant`. Par conséquent, pour utiliser ce composant, il suffit d'utiliser la balise <exemple-composant>. Par la suite, nous devons utiliser ce composant tel une instance Vue créée par la commande JavaScript : 
-```{code-box}JavaScript
+```{code-block}JavaScript
 ---
 linenos: true
 ---
@@ -199,7 +198,7 @@ Ainsi, il est affiché "First component".
 De plus, les composants peuvent être utilisés plusieurs fois dans le même code et même dans d’autres pages de code n’ayant pas nécessairement un rapport particulier avec la première page. 
 #### Les props
 Pour rendre notre composant plus intéressant, il est possible d’y ajouter des :command:`props`. 
-```{code-box}vue
+```{code-block}vue
 ---
 linenos: true
 ---
