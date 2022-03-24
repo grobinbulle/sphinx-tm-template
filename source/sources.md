@@ -3,6 +3,7 @@
 - Formation web pour l'apprentissage du HTML : https://grafikart.fr/tutoriels/html
 - Site web ressourçant les bases du HTML : https://developer.mozilla.org/fr/docs/Web/HTML
 - Site web utilisé pour redimensionner les images : https://imageresizer.com/
+- Guide mozilla pour les développeur : https://developer.mozilla.org/fr/
 - Site explicant comment ajouter une icône sur un site : [https://www.1formatik.com/4918/comment-mettre-logo-dun-site-sur-longlet-des-navigateurs-html#:~:text=Pour mettre le logo d,> et](https://www.1formatik.com/4918/comment-mettre-logo-dun-site-sur-longlet-des-navigateurs-html#:~:text=Pour%20mettre%20le%20logo%20d,%3E%20et%20) .
 - Site regroupant de nombreuses méthodes d'apprentissages : [https://www.codeur.com/blog/sites-apprendre-css-gratuitement/](https://www.codeur.com/blog/sites-apprendre-css-gratuitement/)
 - Bases du CSS - mozilla : [https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web/CSS_basics](https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web/CSS_basics)
