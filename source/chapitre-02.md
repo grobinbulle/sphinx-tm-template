@@ -37,11 +37,11 @@ linenos: true
 
 ``` 
 
-De la ligne 3 à 6 s’étend la balise :command:`head`. Le contenu inséré dans cette partie n’est pas visible directement sur la page. Il vient plutôt donner des informations sur cette dernière comme l’encodage (ici UTF-8) ou le nom de la page. 
+De la ligne 3 à 6 s’étend la balise `head`. Le contenu inséré dans cette partie n’est pas visible directement sur la page. Il vient plutôt donner des informations sur cette dernière comme l’encodage (ici UTF-8) ou le nom de la page. 
 
 Des lignes 7 à 16, nous observons le corps de la page, qui représente la partie visible de la page Web et donc le contenu que l’utilisateur voit en naviguant sur le site. 
 
-Les différentes balises :command:`h1`, :command:`h2`, :command:`h3`, … expriment différentes tailles de titre : plus le nombre est grand, plus le titre est petit. Cette balise permet aussi de mettre directement son contenu en gras sans l’intervention d’une autre balise spécifique 
+Les différentes balises `h1`, `h2`, `h3`, … expriment différentes tailles de titre : plus le nombre est grand, plus le titre est petit. Cette balise permet aussi de mettre directement son contenu en gras sans l’intervention d’une autre balise spécifique 
 
 ```{figure} images/html_rendu.png
 ---
@@ -56,12 +56,12 @@ La figure 1 montre le rendu de ce même code. Comme on peut le constater, il s�
 ## Le CSS
 Le CSS (Cascading Style Sheet ou feuille de style en cascade) est une technologie visant à décrire la présentation des pages HTML. Il est ainsi possible de définir le positionnement d’un élément, de le colorer, de changer ses dimensions, … Une multitude de possibilités s’offrent au développeur pour créer la page qu’il souhaite.  
 
-Pour appliquer un style à un élément de la page, il faut sélectionner un élément par un sélecteur pour ensuite lui appliquer les diverses propriétés style souhaitées. Ainsi, si l'on veut changer la couleur de tous les paragraphes de texte en rouge, il suffit de sélectionner les éléments correspondants et de leur appliquer la propriété :command:`color: red`. Ainsi, l’ensemble du texte des paragraphes deviend rouge. 
+Pour appliquer un style à un élément de la page, il faut sélectionner un élément par un sélecteur pour ensuite lui appliquer les diverses propriétés style souhaitées. Ainsi, si l'on veut changer la couleur de tous les paragraphes de texte en rouge, il suffit de sélectionner les éléments correspondants et de leur appliquer la propriété `color: red`. Ainsi, l’ensemble du texte des paragraphes deviend rouge. 
 
 Voici un exemple de code CSS. 
 
 
-```{code-block}css
+```{code-block}
 ---
 linenos: true
 ---
@@ -75,7 +75,7 @@ div {
 ```
 
 
-Considérons le code CSS. Nous y distinguons le sélecteur :command:`body` (venant modifier l’ensemble de la page) ainsi que le sélecteur :command:`p` (venant modifier tous les paragraphes de texte). Chaque sélecteur est suivi de deux accolades qui enferment les différentes propriétés. Ces dernières sont séparées d’un point-virgule pour les distinguer clairement les unes des autres. 
+Considérons le code CSS. Nous y distinguons le sélecteur `body` (venant modifier l’ensemble de la page) ainsi que le sélecteur :command:`p` (venant modifier tous les paragraphes de texte). Chaque sélecteur est suivi de deux accolades qui enferment les différentes propriétés. Ces dernières sont séparées d’un point-virgule pour les distinguer clairement les unes des autres. 
 
 ```{figure} images/css_ex.png
 ---
@@ -90,7 +90,7 @@ Le JavaScript (ou JS) est la troisième et dernière base d’une page Web avec 
 
 Voici un exemple de code très simple en JavaScript. 
 
-```{code-block}JavaScript
+```{code-block}
 ---
 linenos: true
 ---
@@ -103,12 +103,12 @@ function createParagraph() {
 }
 ```
 
-Ce code crée deux éléments distincts dans notre page. En premier lieu, la commande :command:`alert("Bonjour!")`alert ouvrire une boîte de dialogue lorsqu’on lance la page. L’utilisateur doit alors appuyer sur un bouton pour fermer cette alarme et accéder au contenu de la page. 
+Ce code crée deux éléments distincts dans notre page. En premier lieu, la commande `alert("Bonjour!")`alert ouvrire une boîte de dialogue lorsqu’on lance la page. L’utilisateur doit alors appuyer sur un bouton pour fermer cette alarme et accéder au contenu de la page. 
 
-En second lieu, on définit une fonction, à l’aide de la commande :command:`function`, qui crée un boutton affichant du texte à chaque clic. Cette fonction peut être appelée par la suite. Dans ce code, nous créons une variable :command:`para` qui permet d'afficher “Vous avez cliqué !” à chaque clic. 
+En second lieu, on définit une fonction, à l’aide de la commande `function`, qui crée un boutton affichant du texte à chaque clic. Cette fonction peut être appelée par la suite. Dans ce code, nous créons une variable `para` qui permet d'afficher “Vous avez cliqué !” à chaque clic. 
 
 
-```{code-block}html
+```{code-block}
 ---
 linenos: true
 ---
@@ -118,7 +118,7 @@ linenos: true
     <head>
         <title> Donne ici un titre à ta page html </title>
         <meta charset="UTF-8">
-        <link href="C:\Users\Robin\OneDrive - EDUETATFR\TM 2021-2022\essai\css_exemple.css" rel="stylesheet" type="text/css">
+        <link href="css_exemple.css" rel="stylesheet" type="text/css">
         <script src="js.js"></script>
     </head>
     <body>
@@ -128,7 +128,7 @@ linenos: true
 
 ```
 
-Ci-dessus, nous utilisons le code directement dans la page HTML. La fonction :command:`createParagraph` est utilisée dans une balise button. Ainsi, à chaque clic effectué sur ce bouton, la page Web affiche “Vous avez cliqué !”. 
+Ci-dessus, nous utilisons le code directement dans la page HTML. La fonction `createParagraph` est utilisée dans une balise button. Ainsi, à chaque clic effectué sur ce bouton, la page Web affiche “Vous avez cliqué !”. 
 
 ```{figure} images/alert_javascript.png
 ---
@@ -145,7 +145,7 @@ width: 50%
 Rendu du code JavaScript
 ```
 
-La figure 4 montre l'effet de la fonction :command:`createParagraph` rend lorsqu’elle est appelée. En effet, après que l'utilisateur ait cliqué trois fois sur le bouton “Cliquez-moi!”, le texte “Vous avez cliqué” apparaît autant de fois. En théorie, ce programme peut s’exécuter à l’infini. 
+La figure 4 montre l'effet de la fonction `createParagraph` rend lorsqu’elle est appelée. En effet, après que l'utilisateur ait cliqué trois fois sur le bouton “Cliquez-moi!”, le texte “Vous avez cliqué” apparaît autant de fois. En théorie, ce programme peut s’exécuter à l’infini. 
 
 ## Vue.Js
 ### Introduction
@@ -171,9 +171,10 @@ Des éléments importants apporté par VueJs sont les composants. Ces derniers v
 #### Créer un composant
 Tout d’abord, nous allons comprendre comment créer un composant très simple. Nous allons produire un élément qui, lorsque la balise que l’on a créée est appelée, contiendra la balise HTML :command:`First component`. 
 
-```{code-block}vue
+```{code-block}
 ---
 linenos: true
+---
 Vue.component('exemple-composant',{ 
 
 template : '<p>First component</p>'' 
@@ -181,8 +182,8 @@ template : '<p>First component</p>''
 }) 
 
 ```
-Il existe de nombreuses manières de créer un composant mais celle-ci est particulièrement simple à assimiler. La balise que l’on a créée s’appelle :command:`exemple-composant`. Par conséquent, pour utiliser ce composant, il suffit d'utiliser la balise <exemple-composant>. Par la suite, nous devons utiliser ce composant tel une instance Vue créée par la commande JavaScript : 
-```{code-block}JavaScript
+Il existe de nombreuses manières de créer un composant mais celle-ci est particulièrement simple à assimiler. La balise que l’on a créée s’appelle `exemple-composant`. Par conséquent, pour utiliser ce composant, il suffit d'utiliser la balise <exemple-composant>. Par la suite, nous devons utiliser ce composant tel une instance Vue créée par la commande JavaScript : 
+```{code-block}
 ---
 linenos: true
 ---
@@ -197,8 +198,8 @@ Ainsi, il est affiché "First component".
 
 De plus, les composants peuvent être utilisés plusieurs fois dans le même code et même dans d’autres pages de code n’ayant pas nécessairement un rapport particulier avec la première page. 
 #### Les props
-Pour rendre notre composant plus intéressant, il est possible d’y ajouter des :command:`props`. 
-```{code-block}vue
+Pour rendre notre composant plus intéressant, il est possible d’y ajouter des `props`. 
+```{code-block}
 ---
 linenos: true
 ---
@@ -207,7 +208,7 @@ Vue.component('nom', {
   template: '<p>Mon nom est {{nom}}</p>' 
 }); 
 ```
-Les :command:`props` sont des propriétés dont le composant attend une valeur. Dans cet exemple, il est créé une propriété ‘nom’ qui n’affichera pas la même valeur selon ce que l’on codera en HTML: 
+Les `props` sont des propriétés dont le composant attend une valeur. Dans cet exemple, il est créé une propriété ‘nom’ qui n’affichera pas la même valeur selon ce que l’on codera en HTML: 
 ```html
 <div id="tuto"> 
   <nom nom="Toto"></nom> 
