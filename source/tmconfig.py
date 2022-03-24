@@ -1,6 +1,6 @@
 class TMConfig:
 
-    title = u"Modernisation de la plateforme du cours 21Learning avec PrimeVue"
+    title = u"Modernisation de la plateforme du cours 21Learning avec Vue 3"
     first_name = 'Robin'
     last_name = 'Gachet'
     author = f'{first_name} {last_name}'
@@ -8,7 +8,7 @@ class TMConfig:
     month = u'Avril'
     seminary_title = u'Développement d’outils ou matériel d’enseignement de l’informatique'
     tutor = u"Robin Gachet"
-    release = "Version intermédiaire"
+    release = "Version finale"
     repository_url = "https://github.com/{your-docs-url}"
 
     @classmethod

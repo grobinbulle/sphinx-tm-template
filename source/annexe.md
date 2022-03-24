@@ -50,8 +50,7 @@ linenos: true
                   Cours de programmation
               </template>
               <template #content>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt
-                  quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!
+                  Lorem
               </template>
               <template #footer>
                 <Button class="Bouton">Aller au cours</Button>
@@ -64,8 +63,7 @@ linenos: true
                   Cours de Web design
               </template>
               <template #content>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt
-                  quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!
+                  Lorem
               </template>
               <template #footer>
                 <Button class="Bouton">Aller au cours</Button>
@@ -78,8 +76,7 @@ linenos: true
                   Cours de Robotique
               </template>
               <template #content>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt
-                  quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!
+                  Lorem
               </template>
               <template #footer>
                 <Button class="Bouton">Aller au cours</Button>
@@ -92,8 +89,7 @@ linenos: true
                   L'internet des objets
               </template>
               <template #content>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt
-                  quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!
+                  Lorem
               </template>
               <template #footer>
                 <Button class="Bouton">Aller au cours</Button>
@@ -106,8 +102,7 @@ linenos: true
                   Les réseaux informatiques
               </template>
               <template #content>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt
-                  quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!
+                  Lorem
               </template>
               <template #footer>
                 <Button class="Bouton">Aller au cours</Button>
@@ -120,8 +115,7 @@ linenos: true
                   Cours "Listes avancées"
               </template>
               <template #content>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt
-                  quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!
+                  Lorem
               </template>
               <template #footer>
                 <Button class="Bouton">Aller au cours</Button>
