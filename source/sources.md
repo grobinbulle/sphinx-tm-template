@@ -1,4 +1,4 @@
-# Sources
+# Webographie
 ## Sources textuelles
 - Formation web pour l'apprentissage du HTML : https://grafikart.fr/tutoriels/html
 - Site web ressourçant les bases du HTML : https://developer.mozilla.org/fr/docs/Web/HTML
