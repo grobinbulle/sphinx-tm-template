@@ -21,9 +21,9 @@ Titre du travail de maturité
     annexe.md
     todo.rst
 
+..
+    Indices and tables
+    ==================
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`search`
+    * :ref:`genindex`
+    * :ref:`search`

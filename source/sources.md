@@ -25,8 +25,8 @@
 - Cheatsheet Bash shell : [https://devhints.io/bash](https://devhints.io/bash)
 - Plateforme me premettant de coder mon projet : https://repl.io
 - Plateforme du cours d'informatique : https://courses.21-learning.com/runestone/
-- Page explicant le html : [https://developer.mozilla.org/fr/docs/Web/HTML](https://developer.mozilla.org/fr/docs/Web/HTML) 
-- Page explicant le css : [https://ducom.me/hema/creation-site/Topics/03-presentation-css.html](https://ducom.me/hema/creation-site/Topics/03-presentation-css.html)
+- Page explicant le HTML : [https://developer.mozilla.org/fr/docs/Web/HTML](https://developer.mozilla.org/fr/docs/Web/HTML) 
+- Page explicant le CSS : [https://ducom.me/hema/creation-site/Topics/03-presentation-css.html](https://ducom.me/hema/creation-site/Topics/03-presentation-css.html)
 - Informations sur les avantages de vue js : [https://www.elao.com/blog/dev/pourquoi-devriez-vous-utiliser-vue-js-dans-vos-projets](https://www.elao.com/blog/dev/pourquoi-devriez-vous-utiliser-vue-js-dans-vos-projets)
 - Informations pour l’introduction et les avantages de vue js :[https://www.vigicorp.fr/blog/framework-vue-js/](https://www.vigicorp.fr/blog/framework-vue-js/)
 - Informations pour l’introduction : [https://fr.vuejs.org/v2/guide/index.html](https://fr.vuejs.org/v2/guide/index.html)
