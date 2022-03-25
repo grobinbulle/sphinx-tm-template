@@ -244,6 +244,6 @@ p-panelmenu{
 ## Déclaration sur l'honneur
 ```{figure} images/tm_decla.jpg
 ---
-width: 110%
+width: 100%
 ---
 ```
