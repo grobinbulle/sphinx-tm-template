@@ -75,7 +75,7 @@ div {
 ```
 
 
-Considérons le code CSS. Nous y distinguons le sélecteur `body` (venant modifier l’ensemble de la page) ainsi que le sélecteur :command:`p` (venant modifier tous les paragraphes de texte). Chaque sélecteur est suivi de deux accolades qui enferment les différentes propriétés. Ces dernières sont séparées d’un point-virgule pour les distinguer clairement les unes des autres. 
+Considérons le code CSS. Nous y distinguons le sélecteur `body` (venant modifier l’ensemble de la page) ainsi que le sélecteur `p` (venant modifier tous les paragraphes de texte). Chaque sélecteur est suivi de deux accolades qui enferment les différentes propriétés. Ces dernières sont séparées d’un point-virgule pour les distinguer clairement les unes des autres. 
 
 ```{figure} images/css_ex.png
 ---
