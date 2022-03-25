@@ -138,7 +138,7 @@ Rendu de l'alerte JavaScript
 ```
 La figue 3 montre l’appel de la fonction alerte. Comme indiqué précédemment, cette simple ligne de code engendre cette boîte de dialogue en haut de notre page. Cette alerte ne s’enlève que lorsque l’utilisateur clique sur le bouton OK. Cela fait, l’utilisateur peut ensuite accéder au contenu de la page Web. 
 
-```{figure} images/click_test_img.png
+```{figure} images/java_img.jpg
 ---
 width: 50%
 ---
