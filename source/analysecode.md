@@ -1,13 +1,13 @@
 # Analyse d'une page de code
 
 ## Introduction
-Dans ce chapitre, je vais analyser le code de mon composant ListCourses, permettant à l'utilisateur de choisir son cours. Son code se situe en annexe en j'y ferai donc référence dans ce chapitre. Comme énoncé dans l'annexe, le code analysé est la version du 3 mars 2022 et ce n'est donc pas la version définitive. Ceci est dû à des problèmes rencontrés avec l'application repl sur laquelle je code mon application. 
+Dans ce chapitre, je vais analyser le code de mon composant ListCourses, permettant à l'utilisateur de choisir son cours. Le code se situe en annexe et j'y ferai donc référence dans ce chapitre. Comme énoncé dans l'annexe, le code analysé est la version du 3 mars 2022 et ce n'est donc pas la version définitive. Ceci est dû à des problèmes rencontrés avec l'application repl sur laquelle je code mon application. 
 
 ## Analyse du code
 
-Pour commencer, je vais expliquer la balise `template` qui englobe le code de la ligne 1 à 120. Le but de cette commande est de définir le modèle du composant. Ainsi, lorsque l’on appelera notre composant, le système prendra le contenu de la balise `template`. 
+Pour commencer, je vais expliquer la balise `template` qui englobe le code de la ligne 1 à 120. Le but de cette commande est de définir le modèle du composant. Ainsi, lorsque l’on appelera le composant, le système prendra le contenu de la balise `template`. 
 
-Entre les lignes 3 et 8 se trouve le contenu de la balise `head`. Le but de cette dernière est d’ajouter les informations générales de notre page que le moteur de recherche va utiliser. Ces indications ne sont donc pas visibles lorsque l’on regarde le rendu de notre page mais ne sont donc pas inutiles. On peut s’en servir pour indiquer le titre de notre page comme à la ligne 4, mais aussi pour donner une description à notre page comme l’on peut l’observer à la ligne 6. 
+Entre les lignes 3 et 8 se trouve le contenu de la balise `head`. Le but de cette dernière est d’ajouter les informations générales de la page que le moteur de recherche va utiliser. Ces indications ne sont donc pas visibles lorsque l’on regarde le rendu de la page mais ne sont donc pas inutiles. On peut s’en servir pour indiquer le titre de la partie comme à la ligne 4, mais aussi pour donner une description à la page comme l’on peut l’observer à la ligne 6. 
 
 Je vais ensuite m’intéresser à la balise `body`, se situant aux lignes 9 et 118. Ces dernières contiennent le corps du composant. C’est donc ici que le développeur code ce qui est destiné à apparaître dans la page. Il est intéressant d’utiliser une balise `body` car cela permet au système de mieux comprendre le code. De plus, on peut facilement aplliquer des   propriétés CSS à l’ensemble du composant en sélectionnant le contenu de cette balise. 
 
@@ -23,4 +23,4 @@ En outre, on peut observer dès la ligne 160 la balise `style`. C'est principale
 
 ## Conclusion 
 
-Ainsi, j’ai présenté le fonctionnement générale du code définissant le composant `ListCourses`. La structure du code se compose de cinq parties : le `template`, le `head`, le `body`, le `script` et le `style`. Il est important d’avoir une page bien structurée pour que le système puisse facilement comprendre le code et éviter des problèmes qui peuvent faire perdre un temps précieux au développeur. 
+Ainsi, j’ai présenté le fonctionnement générale du code définissant le composant `ListCourses`. La structure du code se compose de cinq parties : le `template`, le `head`, le `body`, le `script` et le `style`. Il est important d’avoir une page bien structurée pour que le système puisse facilement comprendre le code et éviter des problèmes qui pouvant perdre un temps précieux au développeur. 
