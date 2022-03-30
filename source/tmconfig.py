@@ -6,7 +6,7 @@ class TMConfig:
     author = f'{first_name} {last_name}'
     year = u'2022'
     month = u'Avril'
-    seminary_title = u'Développement d’outils ou matériel d’enseignement de l’informatique'
+    seminary_title = u'Développement d’outils ou de matériel d’enseignement de l’informatique'
     tutor = u"Robin Gachet"
     release = "Version finale"
     repository_url = "https://github.com/{your-docs-url}"
