@@ -1,12 +1,6 @@
 # Annexes
 ## Code du composant ListCourses
 
-```{admonition} Remarque
----
-class: attention
----
-Suite à des problèmes rencontrés avec la plateforme repl qui m'ont empêché d'avancer, cette version du code du composant ListCourses date du 3 mars 2022 et n'est donc pas la version finale.
-```
 ```{code-block} vue
 ---
 linenos: true
