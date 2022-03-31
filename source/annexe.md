@@ -7,117 +7,117 @@ class: attention
 ---
 Suite à des problèmes rencontrés avec la plateforme repl qui m'ont empêché d'avancer, cette version du code du composant ListCourses date du 3 mars 2022 et n'est donc pas la version finale.
 ```
-
-
 ```{code-block} vue
 ---
 linenos: true
 ---
 <template>
-    <div class="allpage">
-      <div class="menubar-css">
-        <!-- création du menu-haut -->
-        <Menubar :model="item" style="margin-top: -65px; width: 103%; position: fixed; z-index: 4; margin-left : -1%; margin-right: -5%">
-          <!-- éléments à gauche du menu -->
-          <template #start> 
-            <Button>Retour à la page d'accueil</Button>
-          </template>
-          <!-- élément à doite du menu -->
-          <template #end>
-            <span class="p-input-icon-left">
-                <i class="pi pi-search" />
-                <InputText type="text" v-model="value1" placeholder="Search" />
-            </span>
-            <Button icon="pi pi-user" class="p-button-rounded p-button-info" />
-          </template>
-        </Menubar>
-      </div>
-      <div class="toutepage">
-        <div class="content" style ="margin-top : 50px; width: 105%;">
-          <h1>Choisissez votre cours</h1>
-          <div class="toutecarte"> 
-            <Card class="carte">
-              <template #header>
-              </template>
-              <template #title>
-                  Cours de programmation
-              </template>
-              <template #content>
-                  Lorem
-              </template>
-              <template #footer>
-                <Button class="Bouton">Aller au cours</Button>
-              </template>
-            </Card>
-            <Card class="carte">
-              <template #header>
-              </template>
-              <template #title>
-                  Cours de Web design
-              </template>
-              <template #content>
-                  Lorem
-              </template>
-              <template #footer>
-                <Button class="Bouton">Aller au cours</Button>
-              </template>
-            </Card>
-            <Card class="carte">
-              <template #header>
-              </template>
-              <template #title>
-                  Cours de Robotique
-              </template>
-              <template #content>
-                  Lorem
-              </template>
-              <template #footer>
-                <Button class="Bouton">Aller au cours</Button>
-              </template>
-            </Card>
-            <Card class="carte">
-              <template #header>
-              </template>
-              <template #title>
-                  L'internet des objets
-              </template>
-              <template #content>
-                  Lorem
-              </template>
-              <template #footer>
-                <Button class="Bouton">Aller au cours</Button>
-              </template>
-            </Card>
-            <Card class="carte">
-              <template #header>
-              </template>
-              <template #title>
-                  Les réseaux informatiques
-              </template>
-              <template #content>
-                  Lorem
-              </template>
-              <template #footer>
-                <Button class="Bouton">Aller au cours</Button>
-              </template>
-            </Card>
-            <Card class="carte">
-              <template #header>
-              </template>
-              <template #title>
-                  Cours "Listes avancées"
-              </template>
-              <template #content>
-                  Lorem
-              </template>
-              <template #footer>
-                <Button class="Bouton">Aller au cours</Button>
-              </template>
-            </Card>
-          </div>
+  <div class="allpage">
+    <div class="menubar-css">
+      <!-- création du menu-haut -->
+      <Menubar :model="item" style="margin-top: -65px; width: 101.3%; position: fixed; z-index: 4; margin-left : 0%; margin-right: -11%; max-height: 65px;">
+        <!-- éléments à gauche du menu -->
+        <template #start> 
+          <Button class="but-menubar">Retour à la page d'accueil</Button>
+        </template>
+        <!-- élément à doite du menu -->
+        <template #end>
+          <Button icon="pi pi-user" class="p-button-rounded p-button-info" />
+        </template>
+      </Menubar>
+    </div>
+    <div class="toutepage">
+      <div class="content" style ="margin-top : 50px; width: 105%;">
+        <h1>Choisissez votre cours</h1>
+        <div class="toutecarte"> 
+          <Card class="carte" id="c1">
+            <template #header>
+            </template>
+            <template #title>
+                Cours de programmation
+            </template>
+            <template #content>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt
+                quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!
+            </template>
+            <template #footer>
+              <Button class="Bouton">Aller au cours</Button>
+            </template>
+          </Card>
+          <Card class="carte" id="c2">
+            <template #header>
+            </template>
+            <template #title>
+                Cours de Web design
+            </template>
+            <template #content>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt
+                quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!
+            </template>
+            <template #footer>
+              <Button class="Bouton">Aller au cours</Button>
+            </template>
+          </Card>
+          <Card class="carte" id="c3">
+            <template #header>
+            </template>
+            <template #title>
+                Cours de Robotique
+            </template>
+            <template #content>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt
+                quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!
+            </template>
+            <template #footer>
+              <Button class="Bouton">Aller au cours</Button>
+            </template>
+          </Card>
+          <Card class="carte" id="c4">
+            <template #header>
+            </template>
+            <template #title>
+                L'internet des objets
+            </template>
+            <template #content>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt
+                quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!
+            </template>
+            <template #footer>
+              <Button class="Bouton">Aller au cours</Button>
+            </template>
+          </Card>
+          <Card class="carte" id="c5">
+            <template #header>
+            </template>
+            <template #title>
+                Les réseaux informatiques
+            </template>
+            <template #content>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt
+                quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!
+            </template>
+            <template #footer>
+              <Button class="Bouton">Aller au cours</Button>
+            </template>
+          </Card>
+          <Card class="carte" id="c6">
+            <template #header>
+            </template>
+            <template #title>
+                Cours "Listes avancées"
+            </template>
+            <template #content>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt
+                quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!
+            </template>
+            <template #footer>
+              <Button class="Bouton">Aller au cours</Button>
+            </template>
+          </Card>
         </div>
       </div>
     </div>
+  </div>
 </template>
 
 <!-- éléments du PanelMenu -->
@@ -173,15 +173,25 @@ p {
   border-color: #5c7fd4;
   color : white;
 }
-body{
-  width: 102%;
-  margin-left: -1%;
-  margin-right: -1%;
+.but-menubar{
+  font-size: 2vh;
+  width : 18vh;
+  height: 7vh;
+  align-items: center;
+}
+.user-but{
+  margin-bottom: -18%;
+}
+.allpage{
+  width: 105%;
+  margin-left: -1.5%;
+  margin-right: -1.5%;
   margin-top: 0%;
   height: 105%;
   margin-bottom: -5%;
   padding-bottom: 10%;
-  background: linear-gradient(to bottom left, #E1E1E1 50%, #F1F1F1 50%);
+  padding-right: 5%;
+  background: linear-gradient(to bottom left, #E1E1E1 50%, #F1F1F1 50%) no-repeat center center fixed;
 }
 /* Autres boutons de la page*/
 Button{
@@ -195,6 +205,7 @@ Button{
   border-color: #5c7fd4;
   color: white;
 }
+
 .carte{
   margin-top: 2%;
   max-width: 25rem;
@@ -203,6 +214,31 @@ Button{
   margin-left: 1%;
   margin-right: 1%;
   animation: fadein 1s;    
+}
+
+#c1:hover{
+  background-color: #F1F1F1;
+  transition-duration: .5s;
+}
+#c2:hover{
+  background-color: #F1F1F1;
+  transition-duration: .5s;
+}
+#c3:hover{
+  background-color: #F1F1F1;
+  transition-duration: .5s;
+}
+#c4:hover{
+  background-color: #F1F1F1;
+  transition-duration: .5s;
+}
+#c5:hover{
+  background-color: #F1F1F1;
+  transition-duration: .5s;
+}
+#c6:hover{
+  background-color: #F1F1F1;
+  transition-duration: .5s;
 }
 @keyframes fadein {
     from {
@@ -222,10 +258,9 @@ h1{
   padding-top: 2rem;
   padding-bottom: 2rem;
   color: white;
-  width: 110%;
-  margin-left: -4%;
-  margin-right: auto;
-  max-width: 104%;
+  width: 101%;
+  margin-left: -1%;
+  max-width: 101%;
 }
 p-panelmenu{
   width: 60%;
