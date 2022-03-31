@@ -37,11 +37,10 @@ linenos: true
                 Cours de programmation
             </template>
             <template #content>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt
-                quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!
+                Lorem
             </template>
             <template #footer>
-              <Button class="Bouton">Aller au cours</Button>
+              <Button class="Bouton"><router-link :to="'/CoursePage'">Aller au cours</router-link></Button>
             </template>
           </Card>
           <Card class="carte" id="c2">
@@ -51,11 +50,10 @@ linenos: true
                 Cours de Web design
             </template>
             <template #content>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt
-                quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!
+                Lorem 
             </template>
             <template #footer>
-              <Button class="Bouton">Aller au cours</Button>
+              <Button class="Bouton"><router-link :to="'/CoursePage'">Aller au cours</router-link></Button>
             </template>
           </Card>
           <Card class="carte" id="c3">
@@ -65,11 +63,10 @@ linenos: true
                 Cours de Robotique
             </template>
             <template #content>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt
-                quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!
+                Lorem 
             </template>
             <template #footer>
-              <Button class="Bouton">Aller au cours</Button>
+              <Button class="Bouton"><router-link :to="'/CoursePage'">Aller au cours</router-link></Button>
             </template>
           </Card>
           <Card class="carte" id="c4">
@@ -79,11 +76,10 @@ linenos: true
                 L'internet des objets
             </template>
             <template #content>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt
-                quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!
+                Lorem
             </template>
             <template #footer>
-              <Button class="Bouton">Aller au cours</Button>
+              <Button class="Bouton"><router-link :to="'/CoursePage'">Aller au cours</router-link></Button>
             </template>
           </Card>
           <Card class="carte" id="c5">
@@ -93,11 +89,10 @@ linenos: true
                 Les réseaux informatiques
             </template>
             <template #content>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt
-                quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!
+                Lorem
             </template>
             <template #footer>
-              <Button class="Bouton">Aller au cours</Button>
+              <Button class="Bouton"><router-link :to="'/CoursePage'">Aller au cours</router-link></Button>
             </template>
           </Card>
           <Card class="carte" id="c6">
@@ -107,11 +102,10 @@ linenos: true
                 Cours "Listes avancées"
             </template>
             <template #content>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt
-                quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!
+                Lorem 
             </template>
             <template #footer>
-              <Button class="Bouton">Aller au cours</Button>
+              <Button class="Bouton"><router-link :to="'/CoursePage'">Aller au cours</router-link></Button>
             </template>
           </Card>
         </div>
@@ -119,6 +113,154 @@ linenos: true
     </div>
   </div>
 </template>
+
+<!-- éléments du PanelMenu -->
+<script>
+export default {
+
+  data() {
+    return {
+      visibleLeft: true,
+      items: [
+                {
+                    label: 'Chapitre 1',
+                    items: [
+                      {
+                          label: 'Chapitre 1.1',
+                          items: [
+                            {
+                                label: 'Chapitre 1.1.1',
+                            },
+                            {
+                                label: 'Chapitre 1.1.2',
+                            }
+                          ]
+                      },
+                      {
+                          label: 'Chapitre 1.2',
+                      },
+                      {
+                          label: 'Chapitre 1.3',
+                      }
+                    ]
+                },
+              ]
+		}
+	}
+}
+
+</script>
+
+
+<style scoped>
+  export default {
+}
+p {
+  padding: .5rem;
+  line-height: 1.5;
+  margin: 0;
+}
+/* bouton de login*/
+.loginbutton{
+  margin: 5px;
+  background-color : #5c7fd4;
+  border-color: #5c7fd4;
+  color : white;
+}
+.but-menubar{
+  font-size: 2vh;
+  width : 18vh;
+  height: 7vh;
+  align-items: center;
+}
+.user-but{
+  margin-bottom: -18%;
+}
+.allpage{
+  width: 105%;
+  margin-left: -1.5%;
+  margin-right: -1.5%;
+  margin-top: 0%;
+  height: 105%;
+  margin-bottom: -5%;
+  padding-bottom: 10%;
+  padding-right: 5%;
+  background: linear-gradient(to bottom left, #E1E1E1 50%, #F1F1F1 50%) no-repeat center center fixed;
+}
+/* Autres boutons de la page*/
+Button{
+  margin: 5px;
+  background-color : #F9F9F9;
+  border-color: #F9F9F9;
+  color : grey;
+}
+.Bouton{
+  background-color: #5c7fd4;
+  border-color: #5c7fd4;
+  color: white;
+}
+
+.carte{
+  margin-top: 2%;
+  max-width: 25rem;
+  max-height: 10%;
+  display: inline-block;
+  margin-left: 1%;
+  margin-right: 1%;
+  animation: fadein 1s;    
+}
+
+#c1:hover{
+  background-color: #F1F1F1;
+  transition-duration: .5s;
+}
+#c2:hover{
+  background-color: #F1F1F1;
+  transition-duration: .5s;
+}
+#c3:hover{
+  background-color: #F1F1F1;
+  transition-duration: .5s;
+}
+#c4:hover{
+  background-color: #F1F1F1;
+  transition-duration: .5s;
+}
+#c5:hover{
+  background-color: #F1F1F1;
+  transition-duration: .5s;
+}
+#c6:hover{
+  background-color: #F1F1F1;
+  transition-duration: .5s;
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+.toutecarte{
+  margin-right: auto;
+  margin-left: -5%;
+}
+h1{
+  font-size: 40px;
+  background-color: #5c7fd4;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: white;
+  width: 101%;
+  margin-left: -1%;
+  max-width: 101%;
+}
+p-panelmenu{
+  width: 60%;
+  margin-top: 100px;
+}
+</style>
 
 <!-- éléments du PanelMenu -->
 <script>
