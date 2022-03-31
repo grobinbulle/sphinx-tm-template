@@ -14,14 +14,7 @@ Suite à des problèmes rencontrés avec la plateforme repl qui m'ont empêché 
 linenos: true
 ---
 <template>
-  <html>
-    <head>
-      <title>Choisissez votre cours</title>
-      <meta charset="UTF-8">
-      <meta name="description" content="Bienvenue sur la nouvelle plateforme d'apprentissage du cours d'informatique.">
-      <meta name="keywords" content="informatique, apprentissage, plateforme, collège du sud">
-    </head>
-    <body>
+    <div class="allpage">
       <div class="menubar-css">
         <!-- création du menu-haut -->
         <Menubar :model="item" style="margin-top: -65px; width: 103%; position: fixed; z-index: 4; margin-left : -1%; margin-right: -5%">
@@ -124,8 +117,7 @@ linenos: true
           </div>
         </div>
       </div>
-    </body>
-  </html>
+    </div>
 </template>
 
 <!-- éléments du PanelMenu -->
