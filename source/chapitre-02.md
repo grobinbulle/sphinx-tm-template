@@ -37,9 +37,9 @@ linenos: true
 
 ``` 
 
-De la ligne 3 à 6 s’étend la balise `head`. Le contenu inséré dans cette partie n’est pas visible directement sur la page. Il vient plutôt donner des informations sur cette dernière comme l’encodage (ici UTF-8) ou le nom de la page. 
+De la ligne 3 à 8 s’étend la balise `head`. Le contenu inséré dans cette partie n’est pas visible directement sur la page. Il vient plutôt donner des informations sur cette dernière comme l’encodage (ici UTF-8) ou le nom de la page. 
 
-Des lignes 7 à 16, on observe le corps de la page, qui représente la partie visible de la page Web et donc le contenu que l’utilisateur voit en naviguant sur le site. 
+Des lignes 9 à 18, on observe le corps de la page, représenté par la balise `body`, qui représente la partie visible de la page Web et donc le contenu que l’utilisateur voit en naviguant sur le site. 
 
 Les différentes balises `h1`, `h2`, `h3`, … expriment différentes tailles de titre : plus le nombre est grand, plus le titre est petit. Cette balise permet aussi de mettre directement son contenu en gras sans l’intervention d’une autre balise spécifique 
 
@@ -226,7 +226,7 @@ Schéma expliquant le fonctionnement du composant
 ```
 ### PrimeVue
 Enfin, VueJs est complété par la bibliothèque de composants PrimeVue. Comme son nom l’indique, PrimeVue recense plus de 80 composants différents déjà intégralement prêt pour être intégrés dans le code. Il ne suffit ainsi qu’à copier-coller les lignes de codes disponibles dans la documentation de l’application pour afficher l’élément en question sur sa page Web. Pour certains composants, il existe même plusieurs modèles comme par exemple l'orientation (verticale ou horizontale) du composant. Evidemment, il est possible de modifier facilement le composant par quelques propriétés CSS. En résumé, PrimeVue permet un accès libre à plus de 80 composants que l’on peut intégrer et modifier aisément dans le code. 
-### Conclusion
+### Conclusion sur VueJs
 Ainsi, le choix concernant le framework utlisé dans le cadre de ce travail de maturité s’est porté sur Vue.js. En effet, son accessibilité ainsi que sa flexibilité sont des atouts majeurs en la faveur de ce framework. Cette technologie permet notamment d’enrichir le catalogue HTML par le biais de composants, des entités possédant leur propre style et leurs propres fonctionnalités. Cela est utile au codeur pour ajouter un élément complexe dans son projet en quelques minutes seulement sans devoir cravacher des journées entières pour fabriquer ce qu’il désire. 
 ## Conclusion
 Nous arrivons au terme de ce chapitre consacré aux différentes technologies constituant mon travail de maturité. On peut constater qu’un nombre conséquent de technologies différentes sont utilisées dans le cadre de ce travail. Comme pour toute application Web, mon projet utilise les 3 technologies de “base” que sont le HTML, le CSS et le JavaScript. Cependant, nous avons décidé de travailler avec le framework VueJs ainsi que la bibliothèque de composants PrimeVue. Effectivement, ces derniers viennent diminuer en conséquence le temps à consacrer au projet mais aussi et surtout à se mettre dans la peau d’un développeur professionnel qui, lui, utilise quotidiennement les frameworks.  

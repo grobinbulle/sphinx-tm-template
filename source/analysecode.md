@@ -5,19 +5,21 @@ Dans ce chapitre, je vais analyser le code de mon composant ListCourses, permett
 
 ## Analyse du code
 
-Pour commencer, je vais expliquer la balise `template` qui englobe le code de la ligne 1 à 120. Le but de cette commande est de définir le modèle du composant. Ainsi, lorsque l’on appelera le composant, le système prendra le contenu de la balise `template`.  
+Pour commencer, je vais expliquer la balise `template` qui englobe le code de la ligne 1 à 102. Le but de cette commande est de définir le modèle du composant. Ainsi, lorsque l’on appelera le composant, le système prendra le contenu de la balise `template`.  
 
-Je vais ensuite m’intéresser à la balise `div` de classe `allpage`, se situant aux lignes 9 et 118. Ces dernières englobe l'entièreté de la page. C’est donc ici que le développeur code ce qui est destiné à apparaître dans la page. Il est intéressant d’utiliser une balise `div` car cela permet au système de mieux comprendre le code. De plus, on peut facilement aplliquer des   propriétés CSS à l’ensemble du composant en sélectionnant le contenu de cette balise. 
+Je vais ensuite m’intéresser à la balise `div` de classe `allpage`, se situant aux lignes 2 et 101. Ces dernières englobe l'entièreté de la page. C’est donc ici que le développeur code ce qui est destiné à apparaître dans la page. Il est intéressant d’utiliser une balise `div` car cela permet au système de mieux comprendre le code. De plus, on peut facilement aplliquer des   propriétés CSS à l’ensemble du composant en sélectionnant le contenu de cette balise. 
 
 Ce qui se trouve à l’intérieur des `<!-- -->` sont des commentaires. Bien qu’il ne soit pas nécessaire d’en ajouter, ils permettent à celui qui examine le code de mieux comprendre ce dernier. En effet, on utilise les commentaires pour donner des informations spécifiques quant au fonctionnement du code. 
 
-Pour ajouter à cela, on observe le composant `Menubar` aux lignes 12 et 25. Ceci est un composant provenant directement de la bibliothèque de composants PrimeVue qui code pour un menu situé en haut de la page. Ce composant utilise lui aussi des `templates`. En effet, il est possible d’ajouter ce que l’on veut voir apparaître à gauche du menu (`template #start`) et ce que l’on veut voir à droite du menu (`template #end`). 
+Pour ajouter à cela, on observe le composant `Menubar` entre les lignes 5 et 14. Ceci est un composant provenant directement de la bibliothèque de composants PrimeVue qui code pour un menu situé en haut de la page. Ce composant utilise lui aussi des `templates`. En effet, il est possible d’ajouter ce que l’on veut voir apparaître à gauche du menu (`template #start`) et ce que l’on veut voir à droite du menu (`template #end`).
+
+De plus, la balise `router-link`, située notamment à la ligne 30, permet de naviguer dans l'application. En effet, cette balise fait référence au router-vue, qui va se charger de changer l'URL de la page consultée et de rediriger l'utilisateur vers la page souhaitée. Cette opération est comparable au `link href=""` utilisé en HTML.
 
 Le deuxième composant principal fonctionne de manière analogue à celui que l’on vient de regarder. En effet, le composant `Card` provient aussi de PrimeVue. Il code pour une simple carte qui peut être personnalisée par la suite. La seule différence notable entre les fonctionnements de ces deux composants est que la `template #start` code pour le haut de la page et la `template #end` pour le bas de la page. 
 
-La balise `script`, située aux lignes 123 et 157, permet d’intégrer un script JavaScript au composant. Dans le composant que l’on étudie, on s’en sert pour indiquer différents éléments regroupés sous un terme que l’on peut ajouter au code juste en appelant ce dernier. Cela permet d’économiser de nombreuses lignes de code et de simplifier le travail car tout est regroupé en un seul endroit. 
+La balise `script`, située aux lignes 105 et 139, permet d’intégrer un script JavaScript au composant. Dans le composant que l’on étudie, on s’en sert pour indiquer différents éléments regroupés sous un terme que l’on peut ajouter au code juste en appelant ce dernier. Cela permet d’économiser de nombreuses lignes de code et de simplifier le travail car tout est regroupé en un seul endroit. 
 
-En outre, on peut observer dès la ligne 160 la balise `style`. C'est principalement à l’intérieur de cette balise que l’on va indiquer les propriétés CSS que l’on veut appliquer au composant. C’est donc ici que l’on définit principalement le style de la page. 
+En outre, on peut observer dès la ligne 142 la balise `style`. C'est principalement à l’intérieur de cette balise que l’on va indiquer les propriétés CSS que l’on veut appliquer au composant. C’est donc ici que l’on définit principalement le style de la page. 
 
 ## Conclusion 
 
