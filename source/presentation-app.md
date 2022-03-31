@@ -74,5 +74,8 @@ Page contenant un résumé du chapitre étudié
 ```
 Enfin, je vous présente en figure 7 la page de résumé. L’application d’origine ne contenant que peu de résumé, il m’a semblé important d’ajouter une page de ce type à la plateforme. Ceci permet, comme on peut s’en douter, d’avoir sur quelques lignes les aspects principaux du chapitre étudié. Cela peut agir comme repère lors des révisions car on comprend ce qui est attendu lors de l’examen qui évaluera cette matière. 
 
+## Remarques générales
+Pour finir, il est possible de naviguer à travers les composants grâce au router vue. Ce dernier permet de changer l'URL de la paghe consultée pour atteindre un autre composant. De plus, pour faciliter la création de nouvelle page, l'application possède des différents layouts. Le layout est le modèle d'un type de page. Ainsi, il ne reste plus qu'à ajouter le contenu et choisir son layout et nous obtiendrons la page souhaitée. 
+
 ## Conclusion
 Ainsi, cette nouvelle version de la plateforme de cours se veut moderne et simple. Le but n’est pas de perturber l’étudiant lors de son apprentissage mais plutôt de lui apporter des outils qui peuvent s’avérer utile lors de l’étude d’un chapitre ou de la préparation d’un examen. 
