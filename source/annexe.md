@@ -65,39 +65,38 @@ linenos: true
 </template>
 
 <script>
-
-export default {
-  data() {
-    return {
-      visibleLeft: true,
-      checked: false,
-      items: [
-                {
-                    label: 'Chapitre 1',
-                    items: [
-                      {
-                          label: 'Chapitre 1.1',
-                          items: [
-                            {
-                                label: 'Chapitre 1.1.1',
-                            },
-                            {
-                                label: 'Chapitre 1.1.2',
-                            }
-                          ]
-                      },
-                      {
-                          label: 'Chapitre 1.2',
-                      },
-                      {
-                          label: 'Chapitre 1.3',
-                      }
-                    ]
-                },
-              ]
-		}
-	}
-}
+  export default {
+    data() {
+      return {
+        visibleLeft: true,
+        checked: false,
+        items: [
+                  {
+                      label: 'Chapitre 1',
+                      items: [
+                        {
+                            label: 'Chapitre 1.1',
+                            items: [
+                              {
+                                  label: 'Chapitre 1.1.1',
+                              },
+                              {
+                                  label: 'Chapitre 1.1.2',
+                              }
+                            ]
+                        },
+                        {
+                            label: 'Chapitre 1.2',
+                        },
+                        {
+                            label: 'Chapitre 1.3',
+                        }
+                      ]
+                  },
+                ]
+      }
+    }
+  }
 
 </script>
 
