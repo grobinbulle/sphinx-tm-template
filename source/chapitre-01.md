@@ -1,6 +1,6 @@
 (header_target)=
 
-# Analyse d’une page 
+# Analyse d’une page du site à moderniser
 
 ## Introduction
 Dans ce chapitre, on s'intéresse à la structure et au design de la plateforme de cours d’informatique. Il faut analyser en détail l’ensemble d’une page pour y dégager ce qui nuit à l’apprentissage ainsi que critiquer le design qui peut, lui aussi, gêner l’utilisateur. Après avoir observé les points qui pouvaient être améliorés, je propose des alternatives bien plus agréables pour la navigation sur le site. Il peut aussi être intéressant de présenter des nouvelles fonctionnalités qui pourraient optimiser la plateforme. 
