@@ -21,6 +21,10 @@ La balise `script`, située aux lignes 60 et 94, permet d’intégrer un script 
 
 En outre, on peut observer dès la ligne 96 la balise `style`. C'est principalement à l’intérieur de cette balise que l’on va indiquer les propriétés CSS que l’on veut appliquer au composant. C’est donc ici que l’on définit principalement le style de la page. 
 
+## Conclusion 
+
+Ainsi, j’ai présenté le fonctionnement générale du code définissant le composant `CoursePage`. La structure du code se compose de cinq parties : le `template`, la `div`, le `script` et le `style`. Il est important d’avoir une page bien structurée pour que le système puisse facilement comprendre le code et éviter des problèmes qui pouvant perdre un temps précieux au développeur. 
+
 ```{figure} images/coursepage1.png
 ---
 width: 70%
@@ -34,6 +38,3 @@ width: 70%
 ---
 Deuxième partie de la page de cours avec la sidebar ouverte
 ```
-## Conclusion 
-
-Ainsi, j’ai présenté le fonctionnement générale du code définissant le composant `ListCourses`. La structure du code se compose de cinq parties : le `template`, la `div`, le `script` et le `style`. Il est important d’avoir une page bien structurée pour que le système puisse facilement comprendre le code et éviter des problèmes qui pouvant perdre un temps précieux au développeur. 
