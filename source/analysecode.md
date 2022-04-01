@@ -17,9 +17,9 @@ De plus, la balise `router-link`, située notamment à l'intérieur d'une balise
 
 L
 
-La balise `script`, située aux lignes 105 et 139, permet d’intégrer un script JavaScript au composant. Dans le composant que l’on étudie, on s’en sert pour indiquer différents éléments regroupés sous un terme que l’on peut ajouter au code juste en appelant ce dernier. Cela permet d’économiser de nombreuses lignes de code et de simplifier le travail car tout est regroupé en un seul endroit. 
+La balise `script`, située aux lignes 60 et 94, permet d’intégrer un script JavaScript au composant. Dans le composant que l’on étudie, on s’en sert pour indiquer différents éléments regroupés sous un terme que l’on peut ajouter au code juste en appelant ce dernier. Cela permet d’économiser de nombreuses lignes de code et de simplifier le travail car tout est regroupé en un seul endroit. 
 
-En outre, on peut observer dès la ligne 142 la balise `style`. C'est principalement à l’intérieur de cette balise que l’on va indiquer les propriétés CSS que l’on veut appliquer au composant. C’est donc ici que l’on définit principalement le style de la page. 
+En outre, on peut observer dès la ligne 96 la balise `style`. C'est principalement à l’intérieur de cette balise que l’on va indiquer les propriétés CSS que l’on veut appliquer au composant. C’est donc ici que l’on définit principalement le style de la page. 
 
 ## Conclusion 
 

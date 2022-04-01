@@ -100,9 +100,6 @@ linenos: true
 
 </script>
 
-<style scoped>
-  export default {
-}
 <style lang="scss" scoped>
 ::v-deep(.p-scrollpanel) {
     p {
