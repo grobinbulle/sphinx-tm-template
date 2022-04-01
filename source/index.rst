@@ -19,6 +19,7 @@ Titre du travail de maturité
     conclusion.md
     sources.md
     annexe.md
+    remerciements.md
     todo.rst
 
 ..
