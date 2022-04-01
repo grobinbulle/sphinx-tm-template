@@ -261,9 +261,3 @@ input{
 }
 </style>
 ``` 
-## Déclaration sur l'honneur
-```{figure} images/tm_decla.jpg
----
-width: 100%
----
-```
