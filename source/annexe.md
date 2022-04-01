@@ -1,5 +1,5 @@
 # Annexes
-## Code du composant ListCourses
+## Code du composant CoursePage
 
 ```{code-block} vue
 ---
@@ -38,15 +38,13 @@ linenos: true
                   <!-- ajout du contenu textuel de notre cour -->
           <div class="text" style="margin-top: 0%; z-index: 1; float: none; width: 80%; height : 60%; font-size: 20px; text-align : left; margin-right : auto; margin-left: auto; font-size: 150%; font-family : system-ui">                 
                             <h3>2.1.1. Introduction </h3>
-      <h5>Les robots sont des appareils mécaniques contrôlés par ordinateur, capables d’effectuer des tâches automatisées de manière autonome.<br> Cela fait bien longtemps qu’ils jouent un rôle important dans l’industrie, dans la technologie, dans la médecine, dans la recherche et dans les sciences, à savoir dans pratiquement tous les domaines de l’activités humaines.<br> Alors que les premiers robots étaient conçus pour assister les humains dans les tâches monotones et pénibles physiquement, les robots de nouvelle génération sont capables de collecter des données sur leur environnement à l’aide de capteurs, de prendre des décisions pertinentes ou d’adapter leur comportement en fonction de leur environnement (auto-apprentissage). On parle alors de robots auto-apprenants (self-learning robot en anglais).
-    
-      <br>Il existe différents types de robots : les robots industriels fixes, les robots mobiles ou les robots humanoïdes. Mais il y a une chose que tous les robots ont en commun : ils doivent tous être programmés. Il faut des humains pour décrire de manière très précise la tâche qu’un robot doit effectuer à l’aide d’une suite d’instructions, à savoir d’un programme informatique.</h5>
+      <h5>course content</h5>
       <br>    
           </div>
           <div class="visuel">
             <!-- ajout de l'image du robot -->
-            <iframe width="80%" height="80%" src="https://www.youtube.com/embed/vMVg9QMOxvk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <figure><img src="../assets/nao.jpg" style="height : 85%; width: 60%; margin:left: 50%; margin-right: 0%; margin-top: 0%;"/><figcaption>Le robot nao</figcaption></figure>
+            <iframe width="80%" height="80%" src="video-link" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <figure><img src="img_link" style="height : 85%; width: 60%; margin:left: 50%; margin-right: 0%; margin-top: 0%;"/><figcaption>Le robot nao</figcaption></figure>
           </div>
         </div>
       </div>
