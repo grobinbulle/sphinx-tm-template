@@ -167,9 +167,9 @@ Enfin, cette technologie offre la possibilité de créer facilement ses propres 
 
 VueJs restait une solution adéquate dans le cadre d’un travail de maturité. Cette technologie peut aisément et rapidement se comprendre et être utilisée par le développeur. Elle s’adapte à ses différents besoins et peut être mêlée facilement à des technologies différentes. 
 ### Les composants
-Des éléments importants apporté par VueJs sont les composants. Ces derniers viennent enrichir le HTML de façon modulaire. En d’autres termes, il nous est possible de créer un élément codé en HTML et possédant ses propres fonctionnalités qu'il est possible d'intégrer facilement à notre code par le biais d’une simple balise personnalisée. Le catalogue de fonctionnalités du HTML étant limité, les composants permettent d’y ajouter de nombreux éléments plus complexes qui sont d’une grande utilité pour le développeur. Ainsi, nous y observons le fonctionnement de ces fameux composants si utiles aux développeurs. 
+Des éléments importants apportés par VueJs sont les composants. Ces derniers viennent enrichir le HTML de façon modulaire. En d’autres termes, il est possible de créer un élément codé en HTML avec ses propres fonctionnalités. Il s'intègre alors facilement à notre code par le biais d’une simple balise personnalisée. Le catalogue de fonctionnalités du HTML est limité, mais les composants permettent d’y ajouter de nombreux éléments plus complexes qui peuvent s'avérer très utiles pour le développeur. Observons le fonctionnement de ces fameux composants. 
 #### Créer un composant
-Tout d’abord, il faut comprendre comment créer un composant très simple. Il faut produire un élément qui, lorsque la balise que l’on a créée est appelée, contiendra la balise HTML `First component`. 
+Tout d’abord, il faut comprendre comment créer un composant très simple. Il s'agit de produire un élément qui, lorsque la balise créée est appelée, contiendra la balise HTML `First component`. 
 
 ```{code-block}
 ---
@@ -182,7 +182,7 @@ template : '<p>First component</p>''
 }) 
 
 ```
-Il existe de nombreuses manières de concevoir un composant mais celle-ci est particulièrement simple à assimiler. La balise que l’on a créée s’appelle `exemple-composant`. Par conséquent, pour utiliser ce composant, il suffit d'utiliser la balise <exemple-composant>. Par la suite, on doit utiliser ce composant telle une instance Vue créée par la commande JavaScript : 
+Il existe de nombreuses manières de concevoir un composant, mais celle-ci est particulièrement simple à assimiler. La balise que l’on a créée s’appelle `exemple-composant`. Par conséquent, pour utiliser ce composant, il suffit d'utiliser la balise <exemple-composant>. Par la suite, on s'en servira telle une instance Vue créée par la commande JavaScript: 
 ```{code-block}
 ---
 linenos: true
@@ -196,7 +196,7 @@ Enfin, notre composant peut être appelé dans le code HTML par sa balise person
 
 Il est affiché "First component".
 
-De plus, les composants peuvent être utilisés plusieurs fois dans le même code et même dans d’autres pages de code n’ayant pas nécessairement un rapport particulier avec la première page. 
+De plus, les composants peuvent être utilisés plusieurs fois dans le même code ou dans d’autres pages de code n’ayant pas nécessairement un rapport particulier avec la première page. 
 #### Les props
 Pour rendre le composant plus intéressant, il est possible d’y ajouter des `props`. 
 ```{code-block}
@@ -208,13 +208,13 @@ Vue.component('nom', {
   template: '<p>Mon nom est {{nom}}</p>' 
 }); 
 ```
-Les `props` sont des propriétés dont le composant attend une valeur. Dans cet exemple, il est créé une propriété ‘nom’ qui n’affichera pas la même valeur selon ce que l’on codera en HTML: 
+Les `props` sont des propriétés dont le composant attend une valeur. Dans cet exemple, une propriété ‘nom’ n’affichera pas la même valeur selon ce que l’on codera en HTML: 
 ```html
 <div id="tuto"> 
   <nom nom="Toto"></nom> 
 </div> 
 ```
-La propriété attendue par le composant sera “Toto”. Par conséquent, le code affichera : 
+La propriété attendue par le composant sera “Toto”. Par conséquent, le code affichera: 
 
 Mon nom est Toto 
 
@@ -225,9 +225,9 @@ width: 50%
 Schéma expliquant le fonctionnement du composant 
 ```
 ### PrimeVue
-Enfin, VueJs est complétée par la bibliothèque de composants PrimeVue. Comme son nom l’indique, PrimeVue recense plus de 80 composants différents déjà intégralement prêts pour être intégrés dans le code. Il ne suffit qu’à copier-coller les lignes de codes disponibles dans la documentation de l’application pour afficher l’élément en question sur sa page Web. Pour certains composants, il existe même plusieurs modèles comme par exemple l'orientation (verticale ou horizontale) du composant. Evidemment, il est possible de modifier facilement le composant par quelques propriétés CSS. En résumé, PrimeVue permet un accès libre à plus de 80 composants que l’on peut intégrer et modifier aisément dans le code. 
+Enfin, VueJs est complétée par la bibliothèque de composants PrimeVue. Comme son nom l’indique, PrimeVue recense plus de 80 composants différents déjà prêts à être intégrés dans le code. Rien de plus simple: il suffit pour cela de copier-coller les lignes de codes disponibles dans la documentation de l’application pour afficher l’élément en question sur sa page Web. Pour certains composants, il existe même plusieurs modèles comme l'orientation (verticale ou horizontale) du composant. Evidemment, la possibilité de modifier facilement le composant par quelques propriétés CSS existe.
 ### Conclusion sur VueJs
-Le choix concernant le framework utlisé dans le cadre de ce travail de maturité s’est porté sur VueJs. En effet, son accessibilité ainsi que sa flexibilité sont des atouts majeurs en la faveur de ce framework. Cette technologie permet notamment d’enrichir le catalogue HTML par le biais de composants, des entités possédant leur propre style et leurs propres fonctionnalités. Cela est utile au codeur pour ajouter un élément complexe dans son projet en quelques minutes seulement sans devoir cravacher des journées entières pour fabriquer ce qu’il désire. 
+Le choix concernant le framework utilisé dans le cadre de ce travail de maturité s’est porté sur VueJs. En effet, son accessibilité ainsi que sa flexibilité sont des atouts majeurs. Cette technologie permet notamment d’enrichir le catalogue HTML par le biais de composants, des entités possédant leur propre style et leurs propres fonctionnalités. Cela est utile au développeur pour ajouter un élément complexe dans son projet sans devoir cravacher des journées entières. 
 ## Conclusion
-Nous arrivons au terme de ce chapitre consacré aux différentes technologies constituant mon travail de maturité. Comme pour toute application Web, mon projet utilise les 3 technologies de “base” que sont le HTML, le CSS et le JavaScript. Cependant, nous avons décidé de travailler avec le framework VueJs, ainsi que la bibliothèque de composants PrimeVue. Effectivement, ces derniers viennent diminuer en conséquence le temps à consacrer au projet mais aussi et surtout à se mettre dans la peau d’un développeur professionnel qui, lui, utilise quotidiennement les frameworks.  
+Nous arrivons au terme de ce chapitre consacré aux différentes technologies constituant mon travail de maturité. Comme pour toute application Web, mon projet utilise les trois technologies de “base” que sont le HTML, le CSS et le JavaScript. Cependant, nous avons décidé, avec mon professeur, de travailler avec le framework VueJs, ainsi que la bibliothèque de composants PrimeVue. Un choix qui s'est avéré judicieux: ces composants diminuent en conséquence le temps à consacrer au projet, mais aussi et surtout à se mettre dans la peau d’un développeur professionnel qui, lui, utilise quotidiennement les frameworks. 
  
