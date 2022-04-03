@@ -1,6 +1,6 @@
 # Les technologies utilisées
 ## Introduction
-Ce chapitre découvre et approfondit les technologies utilisées pour le développement de l’outil. Bien que la plupart des technologies comme le HTML, le CSS et le JavaScript ne soient pas méconnues des étudiants, d’autres technologies comme le Vue 3 ainsi que la bibliothèque de composants PrimeVue restent encore étrangères à la plupart des élèves. Ces technologies seront présentés de manière générale, avec un approfondissement pour Vue 3 et PrimeVue. 
+Ce chapitre découvre et approfondit les technologies utilisées pour le développement de l’outil. Bien que la plupart des technologies comme le HTML, le CSS et le JavaScript ne soient pas méconnues des étudiants, d’autres technologies comme le Vue 3 ainsi que la bibliothèque de composants PrimeVue restent encore étrangères à la plupart des élèves. Ces technologies seront présentées de manière générale, avec un approfondissement pour Vue 3 et PrimeVue. 
 ## Le HTML
 L’HTML (HyperText Markup Language ou langage à balises pour l’hypertexte) constitue la structure de base des pages Web. Cette technologie se charge des éléments “brutes” de la page sans aucune mise en page et sans aucune “décoration”. L’HTML désigne aussi les liens reliant les pages les unes aux autres, une base fondamentale pour la navigation.  
 
@@ -54,9 +54,9 @@ La figure 1 montre le rendu de ce même code. Comme on peut le constater, il s�
 
 
 ## Le CSS
-Le CSS (Cascading Style Sheet ou feuille de style en cascade) est une technologie visant à décrire la présentation des pages HTML. Il est par exemple possible de définir le positionnement d’un élément, de le colorer, de changer ses dimensions, … C'est ne multitude de possibilités qui s’offrent ainsi au développeur pour créer la page souhaitée.  
+Le CSS (Cascading Style Sheet ou feuille de style en cascade) est une technologie visant à décrire la présentation des pages HTML. Il est par exemple possible de définir le positionnement d’un élément, de le colorer, de changer ses dimensions, … C'est une multitude de possibilités qui s’offrent ainsi au développeur pour créer la page souhaitée.  
 
-Pour appliquer un style à un élément de la page, il faut sélectionner cet élément par un sélecteur pour lui appliquer ensuite les diverses propriétés style souhaitées. Ainsi, s'il est voulu de changer la couleur de tous les paragraphes de texte en rouge, il suffit de sélectionner les éléments correspondants et de leur appliquer la propriété `color: red`. Le tout est joué: l’ensemble du texte des paragraphes passent au rouge. 
+Pour appliquer un style à un élément de la page, il faut sélectionner cet élément par un "sélecteur" pour lui appliquer ensuite les diverses propriétés "style" souhaitées. Ainsi, s'il est voulu de changer la couleur de tous les paragraphes de texte en rouge, il suffit de sélectionner les éléments correspondants et de leur appliquer la propriété `color: red`. Le tout est joué: l’ensemble du texte des paragraphes passent au rouge. 
 
 Voici un exemple de code CSS. 
 
@@ -83,10 +83,10 @@ width: 50%
 ---
 Rendu de notre page CSS
 ```
-En appliquant le code CSS (voir ci-dessus) à une page HTML quelconque, force est de constater que le fond des deux paragraphes est devenu bleu, que le texte a été centré et qu'une bordure rouge s'est ajoutée en bas des deux paragraphes. Vous l’aurez deviné, ces changements ont été provoqués par l’ajout de notre code CSS. Ainsi, avec quelques notions d’anglais, nous pouvons aisément deviner quelle ligne a provoqué quel changement. Cependant, notre page reste statique. Aucun effet et rien de dynamique. Pour coder une page visant à interagir avec l’utilisateur, le JavaScript va se révéler très utile.  
+En appliquant le code CSS (voir ci-dessus) à une page HTML quelconque, force est de constater que le fond des deux paragraphes est devenu bleu, que le texte a été centré et qu'une bordure rouge s'est ajoutée en bas des deux paragraphes. Vous l’aurez deviné, ces changements ont été provoqués par l’ajout de notre code CSS. Ainsi, avec quelques notions d’anglais, nous pouvons aisément trouver quelle ligne a provoqué quel changement. Cependant, notre page reste statique. Aucun effet et rien de dynamique. Pour coder une page visant à interagir avec l’utilisateur, le JavaScript va se révéler très utile.  
 
 ## Le JavaScript
-Le JavaScript (ou JS) est la troisième et dernière base d’une page Web avec le HTML et le CSS. Cette technologie permet notamment de dynamiser une page et de créer une interaction avec l’utilisateur. Le JavaScript est, comme son nom l’indique, un langage de script. Un script Java est une suite d’instructions se reférant à une page. Pour l'interpréter, utilisons un interpréteur (en majorité Chrome) qui viendra appliquer les différentes commandes à la page Web en question.  
+Le JavaScript (ou JS) est la troisième et dernière base d’une page Web avec le HTML et le CSS. Cette technologie permet notamment de dynamiser une page et de créer une interaction avec l’utilisateur. Le JavaScript est, comme son nom l’indique, un langage de script. Un script Java est une suite d’instructions se reférant à une page. Pour l'appliquer, utilisons un interpréteur (en majorité Chrome) qui viendra appliquer les différentes commandes à la page Web en question.  
 
 Voici un exemple de code très simple en JavaScript. 
 
@@ -105,7 +105,7 @@ function createParagraph() {
 
 Ce code crée deux éléments distincts dans la page. En premier lieu, la commande `alert("Bonjour!")` ouvre une boîte de dialogue lorsqu’on lance la page. L’utilisateur doit alors appuyer sur un bouton pour fermer cette alarme et accéder au contenu de la page. 
 
-En second lieu, on définit une fonction `createParagraph` à l’aide de la commande `function`, qui crée un bouton affichant du texte à chaque clic. Cette fonction peut être appelée par la suite. Dans ce code, une variable `para` est créée, ce qui permet d'afficher “Vous avez cliqué!” à chaque clic. 
+En second lieu, on définit une fonction `createParagraph` à l’aide de la commande `function`, qui crée un bouton affichant du texte à chaque clic, cette fonction peut être appelée par la suite. Dans ce code, une variable `para` est créée, ce qui permet d'afficher “Vous avez cliqué!” à chaque clic. 
 
 
 ```{code-block}
@@ -136,7 +136,7 @@ width: 70%
 ---
 Rendu de l'alerte JavaScript
 ```
-La figure 3 montre l’appel de la fonction alerte. Comme indiqué précédemment, cette simple ligne de code engendre cette boîte de dialogue en haut de notre page. Cette alerte ne s’enlève que lorsque l’utilisateur clique sur le bouton OK. Après avoir effectué cela, l’utilisateur peut ensuite accéder au contenu de la page Web. 
+La figure 3 montre l’appel de la fonction `alert`. Comme indiqué précédemment, cette simple ligne de code engendre cette boîte de dialogue en haut de notre page. Cette alerte ne s’enlève que lorsque l’utilisateur clique sur le bouton OK. Après avoir effectué cela, l’utilisateur peut ensuite accéder au contenu de la page Web. 
 
 ```{figure} images/java_image.jpg
 ---
@@ -149,13 +149,13 @@ La figure 4 montre l'effet de la fonction `createParagraph` lorsqu’elle est ap
 
 ## VueJs
 ### Introduction
-VueJs (dernière version: Vue 3) est un framework JavaScript front-end open-source. En d’autres termes, VueJs est une bibliothèque libre d’accès permettant la création de composants JavaScript visant la création d’application Web. Utilisé notamment par Nintendo, Alibaba ou encore la plateforme de streaming Netflix, ce framework simplifie le travail d’un développeur front-end lors de la construction de sa page Web. De nombreux frameworks front-ends sont connus des développeurs comme Angular ou encore ReactJs, mais le choix s’est porté sur VueJs. Ce framework étant bien moins connu des étudiants que les technologies abordées précédemment, approfondissons davantage cette dernière afin de comprendre pourquoi les frameworks sont utiles aux développeurs. Voilà pourquoi notre décision s’est portée sur cette technologie. Il faut en expliquer les avantages par rapport à ses concurrents. De plus, le concept de composants VueJs y est abordé. 
+VueJs (dernière version: Vue 3) est un framework JavaScript front-end open-source. En d’autres termes, VueJs est une bibliothèque libre d’accès permettant la création de composants JavaScript visant la création d’application Web. Utilisé notamment par Nintendo, Alibaba ou encore la plateforme de streaming Netflix, ce framework simplifie le travail d’un développeur front-end lors de la construction de sa page Web. De nombreux frameworks front-ends sont connus des développeurs comme Angular ou encore ReactJs, mais le choix s’est porté sur VueJs. Ce framework étant bien moins connu des étudiants que les technologies abordées précédemment, approfondissons davantage cette dernière afin de comprendre pourquoi les frameworks sont utiles aux développeurs. Voilà pourquoi ma décision s’est portée sur cette technologie. Il faut en expliquer les avantages par rapport à ses concurrents. De plus, le concept de composants VueJs y est abordé. 
 ### Pourquoi utiliser VueJs ?
 Le choix d’un framework dans le cadre d’un travail de maturité n’était pas chose aisée. En effet, on recherchait un framework facile à comprendre et à utiliser. VueJs s’est finalement démarqué des autres frameworks par les nombreux avantages qu’il propose. 
 
 En effet, VueJs est l'un des frameworks les plus légers du marché par son poids avoisinant les 20 Ko.  
 
-De plus, il est très accessible pour un développeur débutant: son apprentissage et sa syntaxe sont faciles à comprendre et un résultat probant peut déjà être obtenu en quelques lignes de code seulement. Cet aspect fut primordial lors du choix de cette technologie, car il permet un codage efficace et rapide à un étudiant n’ayant que très peu de bases dans le monde du développement Front-end. VueJs utilise le bundler nommé "Webpack". Ce dernier transforme le code VueJs en code Javascript. Cela permet donc à Vue d'avoir des commandes plus complètes et plus faciles à comprendre lors de la lecture.
+De plus, il est très accessible à un développeur débutant: son apprentissage et sa syntaxe sont faciles à comprendre et un résultat probant peut déjà être obtenu en quelques lignes de code seulement. Cet aspect fut primordial lors du choix de cette technologie, car il permet un codage efficace et rapide à un étudiant n’ayant que très peu de bases dans le monde du développement front-end. VueJs utilise le bundler nommé "Webpack". Ce dernier transforme le code VueJs en code Javascript. Cela permet donc à Vue d'avoir des commandes plus complètes et plus faciles à comprendre lors de la lecture.
 
 Autre avantage à ne pas négliger, ce framework a été conçu pour être utilisé de manière incrémentale. De ce fait, il est aisément possible d’ajouter un élément Vue sur une page contenant des éléments provenant de technologies différentes. Ceci n’est pas anodin pour un développeur qui doit utiliser différentes bibliothèques de composants. Par conséquent, VueJs s’adapte aux différents besoins du développeur. 
 

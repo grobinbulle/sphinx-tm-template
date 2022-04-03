@@ -18,7 +18,8 @@ width: 70%
 Début d'une page de cours
 ```
 
-La figure 1 montre le début de la page “2.1. Le monde des robots”. Cette capture d’écran permet notamment d’examiner la barre de navigation du site. Ainsi, un problème de couleur apparaît entre cette dernière et le reste de la page. Pour améliorer cela, il serait préférable d’augmenter le contraste entre les deux éléments en appliquant une couleur plus puissante à la barre de navigation. Toujours cu chapitre des couleurs, le fond de la page en gris ne sert pas vraiment et n’apporte rien de spécial. Il serait préférable de l’uniformiser avec le corps de la page en le colorant en blanc. Les différentes icônes du menu-haut pourraient également subir quelques changements, car il n’est pas évident de comprendre du premier coup d’œil ce qu’elles présentent. Concernant le menu déroulant “Naviguer dans ce chapitre”, ce dernier n’est, de mon point de vue, pas assez mis en valeur. Pour avoir déjà travaillé sur cette plateforme par le passé, je ne me suis rendu compte de l’existence de cette fonctionnalité que très récemment. Le menu de navigation au sein du chapitre devrait plutôt figurer complétement déroulé sur le bord gauche de la page au lieu d’être caché sous ce pauvre menu déroulant. Analysons désormais le corps de la page. Le premier fait gênant est que l’intégralité de la longueur n’est pas utilisée. En effet, tous les éléments sont concentrés au centre de la page, rendant complètement inutile ce qui se trouve sur les côtés. Cette disposition peut s’avérer utile pour l’utilisation sur un PC, mais n’est pas optimale sur un smartphone. Il faudrait ajouter de nouvelles fonctionnalités comme le menu de navigation au sein du chapitre sur la bande gauche. Et aussi changer la disposition des éléments dans la page pour que ces derniers occupent l’intégralité de la page. Enfin, les deux boutons situés en bas aux deux côtés sont vraiment intéressants. Ils permettent de passer d'une page à l'autre en un seul clic sans avoir à utiliser la barre de défilement. 
+La figure 1 montre le début de la page “2.1. Le monde des robots”. Cette capture d’écran permet notamment d’examiner la barre de navigation du site. Ainsi, un problème de couleur apparaît entre cette dernière et le reste de la page. Pour améliorer cela, il serait préférable d’augmenter le contraste entre les deux éléments en appliquant une couleur plus puissante à la barre de navigation. Toujours au chapitre des couleurs, le fond de la page en gris ne sert pas vraiment et n’apporte rien de spécial. Il serait préférable de l’uniformiser avec le corps de la page en le colorant en blanc. Les différentes icônes du menu-haut pourraient également subir quelques changements, car il n’est pas évident de comprendre du premier coup d’œil ce qu’elles présentent. Concernant le menu déroulant “Naviguer dans ce chapitre”, ce dernier n’est, de mon point de vue, pas assez mis en valeur. Pour avoir déjà travaillé sur cette plateforme par le passé, je ne me suis rendu compte de l’existence de cette fonctionnalité que très récemment. Le menu de navigation au sein du chapitre devrait plutôt figurer complétement déroulé sur le bord gauche de la page au lieu d’être caché sous ce pauvre menu déroulant. 
+Analysons désormais le corps de la page. Le premier fait gênant est que l’intégralité de la longueur n’est pas utilisée. En effet, tous les éléments sont concentrés au centre de la page, rendant complètement inutile ce qui se trouve sur les côtés. Cette disposition peut s’avérer utile pour l’utilisation sur un PC, mais n’est pas optimale sur un smartphone. Il faudrait ajouter de nouvelles fonctionnalités comme le menu de navigation au sein du chapitre sur la bande gauche. Et aussi changer la disposition des éléments dans la page pour que ces derniers occupent l’intégralité de la page. Enfin, les deux boutons situés en bas, aux deux côtés sont vraiment intéressants. Ils permettent de passer d'une page à l'autre en un seul clic sans avoir à utiliser la barre de défilement. 
 
 ### Exemple 2
 ```{figure} images/capture_2.png
@@ -28,7 +29,7 @@ width: 50%
 Vidéo YouTube insérée sur la page
 ```
 
-Quelques éléments sont à revoir sur la figure 2. En effet, la vidéo YouTube pourrait être mieux incrustée et mise en évidence. De plus, il faudrait modifier la légende de cette dernière en y ajoutant le titre de la vidéo. La vidéo est relativement longue, ce qui peut décourager l'utilisateur de la regarder attentivement. Une idée: placer une icône indiquant si la vidéo a déjà été vue ou non. 
+Quelques éléments sont à revoir sur la figure 2. En effet, la vidéo YouTube pourrait être mieux incrustée et mise en évidence. De plus, il faudrait modifier la légende de cette dernière en y ajoutant le titre de la vidéo. Elle est relativement longue, ce qui peut décourager l'utilisateur de la regarder attentivement. Une idée: placer une icône indiquant si la vidéo a déjà été vue ou non. 
 
 ### Exemple 3
 ```{figure} images/capture_4.png
@@ -38,7 +39,7 @@ width: 70%
 Encadré "attention" pour l'utilisateur
 ```
 
-L’exemple en figure 3 est plutôt bon et compréhensible. Le seul détail à modifier serait la couleur de l’encadré. Effectivement, il pourrait être un peu plus sombre et se rapproches plus du rouge pour faire comprendre à l’utilisateur qu’il doit porter son attention à cet encadré. 
+L’exemple en figure 3 est plutôt bon et compréhensible. Le seul détail à modifier serait la couleur de l’encadré. Effectivement, il pourrait être un peu plus sombre et se rapprocher plus du rouge pour faire comprendre à l’utilisateur qu’il doit porter son attention à cet encadré. 
 
 ### Exemple 4
 ```{figure} images/capture_5.png
@@ -58,7 +59,7 @@ width: 50%
 Espace contenant du code
 ```
 
-En figure 6 se trouve un tableau énumérant les différentes commandes étudiées en cours. Outre les remarques formulées auparavant sur les encadrés “Attention”, un autre élément est peu agréable: l’encadré gris contenant les différentes commandes. Il n’y a pas assez de contraste entre le rouge nommant les commandes et le gris de leur encadré. Deux propositions: un rouge plus “puissant” et des lettres plus épaisses et de ce fait plus visibles. Sur un fond blanc, l’encadré gris n’est que très peu visible et donc peu utile. 
+En figure 6 se trouve un tableau énumérant les différentes commandes étudiées en cours. Outre les remarques formulées auparavant sur les encadrés “Attention”, un autre élément est peu agréable: l’encadré gris contenant les différentes commandes. Il n’y a pas assez de contraste entre le rouge nommant les commandes et le gris de leur encadré. Deux propositions: un rouge plus “puissant” et des lettres plus épaisses. Sur un fond blanc, l’encadré gris n’est que très peu visible et donc peu utile. 
 
 ### Exemple 6
 ```{figure} images/capture_7.png
