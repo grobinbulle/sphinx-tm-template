@@ -2,7 +2,7 @@
 ## Introduction
 Ce chapitre découvre et approfondit les technologies utilisées pour le développement de l’outil. Bien que la plupart des technologies comme le HTML, le CSS et le JavaScript ne soient pas méconnues des étudiants, d’autres technologies comme le Vue 3 ainsi que la bibliothèque de composants PrimeVue restent encore étrangères à la plupart des élèves. Ces technologies seront présentées de manière générale, avec un approfondissement pour Vue 3 et PrimeVue. 
 ## Le HTML
-L’HTML (HyperText Markup Language ou langage à balises pour l’hypertexte) constitue la structure de base des pages Web. Cette technologie se charge des éléments “brutes” de la page sans aucune mise en page et sans aucune “décoration”. L’HTML désigne aussi les liens reliant les pages les unes aux autres, une base fondamentale pour la navigation.  
+Le HTML (HyperText Markup Language ou langage à balises pour l’hypertexte) constitue la structure de base des pages Web. Cette technologie se charge des éléments “brutes” de la page sans aucune mise en page et sans aucune “décoration”. L’HTML désigne aussi les liens reliant les pages les unes aux autres, une base fondamentale pour la navigation.  
 
 Cette technologie fonctionne par des balises. Ces dernières servent à intégrer un élément à la page ainsi qu’à en indiquer la valeur (paragraphe de texte, image, titre, …). L’élément à intégrer, défini par les balises, est inscrit entre la balise ouvrante et la balise fermante (contenant une barre oblique avant de nommer la balise qui doit être fermée).
 Pour produire la page souhaitée à partir du code, ce dernier passe tout d'abord par le DOM (Document Object Model), lequel va permettre aux programmes de lire et de manipuler le contenu de la page. Il fournit une représentation structurée des éléments de la page sous forme d'un arbre.
@@ -50,13 +50,13 @@ width: 50%
 Rendu de la page HTML
 ```
 
-La figure 1 montre le rendu de ce même code. Comme on peut le constater, il s’agit vraiment de la base d’une page Web. Les éléments sont notamment tous alignés à gauche, tous écrits avec la même police et tous en noir. Il ne faut pas s’en cacher, cette page n’est pas du tout esthétique et est encore bien loin d'une page moderne. Pas de souci, ce problème sera réglé par le CSS qui viendra rendre notre page plus agréable et jolie. 
+La figure 1 montre le rendu de ce même code. Comme on peut le constater, il s’agit vraiment de la base d’une page Web. Les éléments sont notamment tous alignés à gauche, tous écrits avec la même police et tous en noir. Il ne faut pas s’en cacher, cette page n’est pas du tout esthétique et est encore bien loin d'une page moderne. Pas de souci. Ce problème sera réglé par le CSS qui viendra rendre notre page plus agréable et jolie. 
 
 
 ## Le CSS
 Le CSS (Cascading Style Sheet ou feuille de style en cascade) est une technologie visant à décrire la présentation des pages HTML. Il est par exemple possible de définir le positionnement d’un élément, de le colorer, de changer ses dimensions, … C'est une multitude de possibilités qui s’offrent ainsi au développeur pour créer la page souhaitée.  
 
-Pour appliquer un style à un élément de la page, il faut sélectionner cet élément par un "sélecteur" pour lui appliquer ensuite les diverses propriétés "style" souhaitées. Ainsi, s'il est voulu de changer la couleur de tous les paragraphes de texte en rouge, il suffit de sélectionner les éléments correspondants et de leur appliquer la propriété `color: red`. Le tout est joué: l’ensemble du texte des paragraphes passent au rouge. 
+Pour appliquer un style à un élément de la page, il faut sélectionner cet élément par un "sélecteur" pour lui appliquer ensuite les diverses propriétés "style" souhaitées. Ainsi, s'il est voulu de changer la couleur de tous les paragraphes de texte en rouge, il suffit de sélectionner les éléments correspondants et de leur appliquer la propriété `color: red`. Le tour est joué: l’ensemble du texte des paragraphes passe au rouge. 
 
 Voici un exemple de code CSS. 
 
@@ -86,7 +86,7 @@ Rendu de notre page CSS
 En appliquant le code CSS (voir ci-dessus) à une page HTML quelconque, force est de constater que le fond des deux paragraphes est devenu bleu, que le texte a été centré et qu'une bordure rouge s'est ajoutée en bas des deux paragraphes. Vous l’aurez deviné, ces changements ont été provoqués par l’ajout de notre code CSS. Ainsi, avec quelques notions d’anglais, nous pouvons aisément trouver quelle ligne a provoqué quel changement. Cependant, notre page reste statique. Aucun effet et rien de dynamique. Pour coder une page visant à interagir avec l’utilisateur, le JavaScript va se révéler très utile.  
 
 ## Le JavaScript
-Le JavaScript (ou JS) est la troisième et dernière base d’une page Web avec le HTML et le CSS. Cette technologie permet notamment de dynamiser une page et de créer une interaction avec l’utilisateur. Le JavaScript est, comme son nom l’indique, un langage de script. Un script Java est une suite d’instructions se reférant à une page. Pour l'appliquer, utilisons un interpréteur (en majorité Chrome) qui viendra appliquer les différentes commandes à la page Web en question.  
+Le JavaScript (ou JS) est la troisième et dernière base d’une page Web avec le HTML et le CSS. Cette technologie permet notamment de dynamiser une page et de créer une interaction avec l’utilisateur. Le JavaScript est, comme son nom l’indique, un langage de script. Un script Javascript est une suite d’instructions se reférant à une page. Pour l'appliquer, utilisons un interpréteur (en majorité Chrome) qui viendra appliquer les différentes commandes à la page Web en question.  
 
 Voici un exemple de code très simple en JavaScript. 
 
@@ -105,7 +105,7 @@ function createParagraph() {
 
 Ce code crée deux éléments distincts dans la page. En premier lieu, la commande `alert("Bonjour!")` ouvre une boîte de dialogue lorsqu’on lance la page. L’utilisateur doit alors appuyer sur un bouton pour fermer cette alarme et accéder au contenu de la page. 
 
-En second lieu, on définit une fonction `createParagraph` à l’aide de la commande `function`, qui crée un bouton affichant du texte à chaque clic, cette fonction peut être appelée par la suite. Dans ce code, une variable `para` est créée, ce qui permet d'afficher “Vous avez cliqué!” à chaque clic. 
+En second lieu, on définit une fonction `createParagraph` à l’aide du mot clé `function`, qui crée un bouton affichant du texte à chaque clic, cette fonction peut être appelée par la suite. Dans ce code, une variable `para` est créée, ce qui permet d'afficher “Vous avez cliqué!” à chaque clic. 
 
 
 ```{code-block}
@@ -167,7 +167,7 @@ Enfin, cette technologie offre la possibilité de créer facilement ses propres 
 
 VueJs restait une solution adéquate dans le cadre d’un travail de maturité. Cette technologie peut aisément et rapidement se comprendre et être utilisée par le développeur. Elle s’adapte à ses différents besoins et peut être mêlée facilement à des technologies différentes. 
 ### Les composants
-Des éléments importants apportés par VueJs sont les composants. Ces derniers viennent enrichir le HTML de façon modulaire. En d’autres termes, il est possible de créer un élément codé en HTML avec ses propres fonctionnalités. Il s'intègre alors facilement à notre code par le biais d’une simple balise personnalisée. Le catalogue de fonctionnalités du HTML est limité, mais les composants permettent d’y ajouter de nombreux éléments plus complexes qui peuvent s'avérer très utiles pour le développeur. Observons le fonctionnement de ces fameux composants. 
+Des éléments importants apportés par VueJs sont les composants. Ces derniers viennent enrichir le HTML de façon modulaire. En d’autres termes, il est possible de créer un élément codé en HTML avec ses propres fonctionnalités. Il s'intègre alors facilement au code par le biais d’une simple balise personnalisée. Le catalogue de fonctionnalités du HTML est limité, mais les composants permettent d’y ajouter de nombreux éléments plus complexes qui peuvent s'avérer très utiles pour le développeur. Observons le fonctionnement de ces fameux composants. 
 #### Créer un composant
 Tout d’abord, il faut comprendre comment créer un composant très simple. Il s'agit de produire un élément qui, lorsque la balise créée est appelée, contiendra la balise HTML `First component`. 
 
@@ -192,7 +192,7 @@ new Vue({
 }); 
 
 ```
-Enfin, notre composant peut être appelé dans le code HTML par sa balise personnalisée insérée dans une div. 
+Enfin, notre composant peut être appelé dans le code HTML par sa balise personnalisée insérée dans une `div`. 
 
 Il est affiché "First component".
 
@@ -208,7 +208,7 @@ Vue.component('nom', {
   template: '<p>Mon nom est {{nom}}</p>' 
 }); 
 ```
-Les `props` sont des propriétés dont le composant attend une valeur. Dans cet exemple, une propriété ‘nom’ n’affichera pas la même valeur selon ce que l’on codera en HTML: 
+Les `props` sont des propriétés dont le composant attend une valeur. Dans cet exemple, une propriété `nom` n’affichera pas la même valeur selon ce que l’on codera en HTML: 
 ```html
 <div id="tuto"> 
   <nom nom="Toto"></nom> 
@@ -225,7 +225,7 @@ width: 50%
 Schéma expliquant le fonctionnement du composant 
 ```
 ### PrimeVue
-Enfin, VueJs est complétée par la bibliothèque de composants PrimeVue. Comme son nom l’indique, PrimeVue recense plus de 80 composants différents déjà prêts à être intégrés dans le code. Rien de plus simple: il suffit pour cela de copier-coller les lignes de codes disponibles dans la documentation de l’application pour afficher l’élément en question sur sa page Web. Pour certains composants, il existe même plusieurs modèles comme l'orientation (verticale ou horizontale) du composant. Evidemment, la possibilité de modifier facilement le composant par quelques propriétés CSS existe.
+Enfin, VueJs est complété par la bibliothèque de composants PrimeVue. Comme son nom l’indique, PrimeVue recense plus de 80 composants différents déjà prêts à être intégrés dans le code. Rien de plus simple: il suffit pour cela de copier-coller les lignes de codes disponibles dans la documentation de l’application pour afficher l’élément en question sur sa page Web. Pour certains composants, il existe même plusieurs modèles comme l'orientation (verticale ou horizontale) du composant. Naturellement, la possibilité de modifier facilement le composant par quelques propriétés CSS existe.
 ### Conclusion sur VueJs
 Le choix concernant le framework utilisé dans le cadre de ce travail de maturité s’est porté sur VueJs. En effet, son accessibilité ainsi que sa flexibilité sont des atouts majeurs. Cette technologie permet notamment d’enrichir le catalogue HTML par le biais de composants, des entités possédant leur propre style et leurs propres fonctionnalités. Cela est utile au développeur pour ajouter un élément complexe dans son projet sans devoir cravacher des journées entières. 
 ## Conclusion
