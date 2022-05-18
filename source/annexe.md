@@ -261,9 +261,10 @@ input{
 }
 </style>
 ``` 
-# Déclaration sur l'honneur
-```{figure} images/tm_decla.jpg
+## Déclaration sur l'honneur
+
+```{figure} images/tm_decla_pasbeug.jpg
 ---
-width: 70%
+width: 100%
 ---
 ```
